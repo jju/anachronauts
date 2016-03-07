@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><!-- Copyright � John B Stone --><!-- Free for non-commercial use only -->
+
+
+
+
+<meta name="generator" content="Microsoft FrontPage 5.0"><title>Utility - Planet Designer</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="description" content="JavaScript Traveller Planetary Data Calculator">
+<meta name="keywords" content="RPG, TRAVELLER, Stones Throw">
+<meta name="author" content="John B Stone">
+<script type="text/JavaScript">
+
+<!--
+var period, relativeMass, density;
+
+function paramsOK(formObj)
+{
+  if (formObj.dayLength.value.length == 0)      {return false;}
+  if (formObj.relativeMass.value.length == 0)   {return false;}
+  if (formObj.Density.value.length == 0)        {return false;}
+
+  period = parseFloat(formObj.dayLength.value);
+  relativeMass = parseFloat(formObj.relativeMass.value);
+  density = parseFloat(formObj.Density.value);
+
+  if (period == isNaN || relativeMass == isNaN || density == isNaN)     {return false;}
+
+  return true;
+}
+function CalcHeight(formObj)
+{
+  if(paramsOK(formObj))
+  {
+        seconds = period*3600;
+        mu = relativeMass * 4.0e14;
+
+        relativeVolume = relativeMass * 5.52 / density;
+        radius = Math.pow(3 * relativeVolume/12.566,1/3)/0.62*6378;
+        diameter = 2 * radius;
+        surfaceArea = 4*radius*radius*3.1416/1.0e6;
+        rocheLimit = 0.26 * radius;
+        surfaceGravity = mu/Math.pow(radius*1000,2)/9.8;
+        toOrbitVelocity = Math.pow(mu/radius/1000,1/2)/1000;
+        equatorialVelocity = 2 * radius * 3.1416 / seconds
+
+        distance = Math.pow(mu*Math.pow(seconds / 6.284,2),1/3)/1000;
+        geoVelocity = 2 * distance * 3.1416 / seconds;
+        distance = distance-radius;
+        
+        formObj.Diameter.value          = Math.round(diameter / 10) * 10;
+        formObj.surfaceArea.value       = Math.round(surfaceArea*10)/10;        
+        formObj.rocheLimit.value        = Math.round(rocheLimit / 100) * 100;   
+        formObj.surfaceGravity.value    = Math.round(surfaceGravity  * 100) / 100;      
+        formObj.toOrbitVelocity.value   = Math.round(toOrbitVelocity * 100) / 100;
+
+
+        formObj.distanceKm.value        = Math.round(distance / 10) * 10;
+        formObj.distanceMiles.value     = Math.floor(distance / 16) * 10;
+
+        formObj.orbitalV.value          = Math.round(geoVelocity * 100) / 100;  
+        formObj.orbitalVMiles.value     = Math.round(geoVelocity * 1000 / 16) /100;     
+
+        escapeVelocity = Math.pow(2*mu/radius*1000,1/2)/1000000;
+
+        formObj.escapeVelocity.value = Math.round(escapeVelocity*10)/10;        
+
+        if (surfaceGravity < 3)
+                toOrbitTime = toOrbitVelocity*1000/((3-surfaceGravity)*9.8+equatorialVelocity);
+        else
+                toOrbitTime=0;
+
+        formObj.toOrbitTime.value = Math.round(toOrbitTime/6)/10;
+
+//      if(escapeVelocity/5.0 > 1.0) 
+//              canHoldAtmo = "Yes";
+//      else
+//              canHoldAtmo = "No";
+//
+//      formObj.canHoldAtmo.value = canHoldAtmo;
+
+        maxCO2Temp = Math.floor(44*Math.pow(escapeVelocity*1000/6/157,2)-273);
+        maxO2Temp  = Math.floor(32*Math.pow(escapeVelocity*1000/6/157,2)-273);
+        maxHeTemp  = Math.floor(4 *Math.pow(escapeVelocity*1000/6/157,2)-273);
+        maxHTemp   = Math.floor(2 *Math.pow(escapeVelocity*1000/6/157,2)-273);
+
+        formObj.maxCO2Temp.value = maxCO2Temp;
+        formObj.maxO2Temp.value  = maxO2Temp;
+        formObj.maxHeTemp.value  = maxHeTemp;
+        formObj.maxHTemp.value   = maxHTemp;
+  }
+}
+
+function sun(formobj)
+{
+formobj.dayLength.value=610;
+formobj.relativeMass.value=333000;
+formobj.Density.value=1.41;
+CalcHeight(formobj);
+}
+
+
+function mercury(formobj)
+{
+formobj.dayLength.value=1407;
+formobj.relativeMass.value=.055;
+formobj.Density.value=5.43;
+CalcHeight(formobj);
+}
+
+function venus(formobj)
+{
+formobj.dayLength.value=5832;
+formobj.relativeMass.value=0.815;
+formobj.Density.value=5.20;
+CalcHeight(formobj);
+}
+
+function earth(formobj)
+{
+formobj.dayLength.value=24;
+formobj.relativeMass.value=1;
+formobj.Density.value=5.52;
+CalcHeight(formobj);
+}
+
+function mars(formobj)
+{
+formobj.dayLength.value=24.6;
+formobj.relativeMass.value=0.107;
+formobj.Density.value=3.93;
+CalcHeight(formobj);
+}
+
+function ceres(formobj)
+{
+formobj.dayLength.value=9.1;
+formobj.relativeMass.value=0.00015;
+formobj.Density.value=2.1;
+CalcHeight(formobj);
+}
+
+
+function jupiter(formobj)
+{
+formobj.dayLength.value=9.9;
+formobj.relativeMass.value=318;
+formobj.Density.value=1.33;
+CalcHeight(formobj);
+}
+
+function saturn(formobj)
+{
+formobj.dayLength.value=10.7;
+formobj.relativeMass.value=95;
+formobj.Density.value=0.69;
+CalcHeight(formobj);
+}
+
+function uranus(formobj)
+{
+formobj.dayLength.value=17.2;
+formobj.relativeMass.value=14.5;
+formobj.Density.value=1.32;
+CalcHeight(formobj);
+}
+
+function neptune(formobj)
+{
+formobj.dayLength.value=16.1;
+formobj.relativeMass.value=17.15;
+formobj.Density.value=1.64;
+CalcHeight(formobj);
+}
+
+function pluto(formobj)
+{
+formobj.dayLength.value=153;
+formobj.relativeMass.value=0.0021;
+formobj.Density.value=1.75;
+CalcHeight(formobj);
+}
+
+function randomLargeMoon(formobj)
+{
+formobj.dayLength.value    =Math.floor((Math.random()*400 + 40 ));
+formobj.relativeMass.value =Math.floor((Math.random()/40  + 0.0001)*10000)/10000;
+formobj.Density.value	   =Math.floor((Math.random()*4 + 1) *100)/100;
+CalcHeight(formobj);
+}
+
+function randomMain(formobj)
+{
+formobj.dayLength.value    =Math.floor((Math.random()*22 + 8 )*10 )/10;
+formobj.relativeMass.value =Math.floor((Math.random()*2 + .1)*100)/100;
+formobj.Density.value	   =Math.floor((Math.random()*2 + 4) *100)/100;
+CalcHeight(formobj);
+}
+
+function randomLargeGG(formobj)
+{
+formobj.dayLength.value    =Math.floor((Math.random()*10 + 8 )*10 )/10;
+formobj.relativeMass.value =Math.floor((Math.random()*400  + 100)*100)/100;
+formobj.Density.value	   =Math.floor((Math.random() + .6) *100)/100;
+CalcHeight(formobj);
+}
+
+
+function randomSmallGG(formobj)
+{
+formobj.dayLength.value    =Math.floor((Math.random()*10 + 8 )*10 )/10;
+formobj.relativeMass.value =Math.floor((Math.random()*90  + 10)*100)/100;
+formobj.Density.value	   =Math.floor((Math.random() + .6) *100)/100;
+CalcHeight(formobj);
+}
+
+-->
+
+</script></head><body bgcolor="silver">
+<noscript>
+<strong>You must have a JavaScript enabled browser to use this page (and you don't).</strong></noscript>
+
+<h1 style="text-align: center;">Planet Designer</h1>
+
+<p>Generate realistic planetary data derived from the planet's: day
+length, mass and density. Enter the desired values and press calculate
+or just hit one of the other buttons.</p>
+
+<form id="Data" name="Data" action="">
+<table summary="layout">
+<tbody><tr>
+<th><label for="dayLength">Day Length:</label></th>
+<td><input id="dayLength" value="24.0" maxlength="7" size="7" type="text"> hours (2.5 seems to be the lower limit for asteroids, 10 to 24 is typical, more for tidally locked bodies)</td>
+</tr>
+<tr>
+<th><label for="relativeMass">Mass:</label></th>
+<td><input id="relativeMass" value="1.0" maxlength="7" size="7" type="text"> relative to Earths</td>
+</tr>
+<tr>
+<th><label for="density">Density:</label></th>
+<td><input id="Density" value="5.52" maxlength="7" size="7" type="text"> g/cm3 (0.6 to 6 is the normal range, solid iron is 7.8)</td>
+</tr>
+</tbody></table>
+<p><input value="Calculate" name="calc" id="calc" onclick="CalcHeight(this.form)" onkeypress="CalcHeight(this.form)" type="button">
+
+<input value="Sun" id="Sun" onclick="sun(this.form)" onkeypress="sun(this.form)" type="button"> 
+<input value="Mercury" id="Mercury" onclick="mercury(this.form)" onkeypress="mercury(this.form)" type="button"> 
+<input value="Venus" id="Venus" onclick="venus(this.form)" onkeypress="venus(this.form)" type="button">
+<input value="Earth" id="Earth" onclick="earth(this.form)" onkeypress="earth(this.form)" type="button"> 
+<input value="Mars" id="Mars" onclick="mars(this.form)" onkeypress="mars(this.form)" type="button"> 
+<input value="Ceres" id="Ceres" onclick="ceres(this.form)" onkeypress="ceres(this.form)" type="button"> 
+<input value="Jupiter" id="Jupiter" onclick="jupiter(this.form)" onkeypress="jupiter(this.form)" type="button"> 
+<input value="Saturn" id="Saturn" onclick="saturn(this.form)" onkeypress="saturn(this.form)" type="button"> 
+<input value="Uranus" id="Uranus" onclick="uranus(this.form)" onkeypress="uranus(this.form)" type="button"> 
+<input value="Neptune" id="Neptune" onclick="neptune(this.form)" onkeypress="neptune(this.form)" type="button"> 
+<input value="Pluto" id="Pluto" onclick="pluto(this.form)" onkeypress="pluto(this.form)" type="button">
+</p>
+
+<p>
+<input value="Random Main World" id="RandomMain" onclick="randomMain(this.form)" onkeypress="randomMain(this.form)" type="button">
+<input value="Random Large Moon" id="RandomLargeMoon" onclick="randomLargeMoon(this.form)" onkeypress="randomLargeMoon(this.form)" type="button">
+
+<input value="Random Large Gas Giant" id="RandomLargeGG" onclick="randomLargeGG(this.form)" onkeypress="randomLargeGG(this.form)" type="button">
+<input value="Random Small Gas Giant" id="RandomSmallGG" onclick="randomSmallGG(this.form)" onkeypress="randomSmallGG(this.form)" type="button">
+</p>
+
+<hr>
+<table summary="layout">
+<tbody><tr>
+<th><label for="Diameter">Diameter =</label></th>
+<td><input id="Diameter" value=" 12800" size="6" readonly="readonly" type="text"> km</td>
+</tr>
+<tr>
+<th><label for="surfaceArea">Surface Area =</label></th>
+<td><input id="surfaceArea" value=" 512" size="6" readonly="readonly" type="text"> million square km</td>
+</tr>
+<tr>
+<th><label for="rocheLimit">Roche Limit =</label></th>
+<td><input id="rocheLimit" value=" 1700" size="6" readonly="readonly" type="text"> km (nearest possible natural satelite)</td>
+</tr>
+<tr>
+<th><label for="surfaceGravity">Surface Gravity =</label></th>
+<td><input id="surfaceGravity" value=" 1.00" size="6" readonly="readonly" type="text"> Gs</td>
+</tr>
+<tr>
+<th><label for="toOrbitVelocity">To Orbit Velocity =</label></th>
+<td><input id="toOrbitVelocity" value=" 7.9" size="6" readonly="readonly" type="text"> km per second</td>
+</tr>
+<tr>
+<th><label for="toOrbitTime">Thrust to orbit time at 3G
+=</label></th>
+<td><input id="toOrbitTime" value=" 6.6" size="6" readonly="readonly" type="text"> minutes</td>
+</tr>
+<tr>
+<th><label for="escapeVelocity">Escape Velocity =</label></th>
+<td><input id="escapeVelocity" value=" 11.2" size="6" readonly="readonly" type="text"> km per second</td>
+</tr>
+<tr>
+<th>-</th>
+<th></th>
+<td></td>
+</tr>
+<tr>
+<th><label for="distanceKm">Geosynchronous orbital distance =</label></th>
+<td><input id="distanceKm" value=" 35900" size="7" readonly="readonly" type="text"> km, or 
+<input id="distanceMiles" value=" 22400" size="7" readonly="readonly" type="text"> 
+<label for="distanceMiles"> miles</label> (from surface of planet)</td>
+</tr>
+<tr>
+<th><label for="orbitalV">Geosynchronous orbital velocity =</label></th>
+<td><input id="orbitalV" value=" 3.1" size="5" readonly="readonly" type="text"> km/s , or 
+<input id="orbitalVMiles" value=" 1.9" size="5" readonly="readonly" type="text">
+<label for="orbitalVMiles"> miles per second</label></td>
+</tr>
+</tbody></table>
+<hr>
+<p style="font-weight: bold;">Maximum surface* temperature to hold onto an atmospheric component for billions of years, for each type of gas:</p>
+<table summary="layout">
+<!--
+<tr><th><label for="canHoldAtmo">Can hold Earth-like atmosphere?</label></th><td><input type="text" id="canHoldAtmo" value=" Yes" size="6" readonly="readonly" > at habitable temperature indefinitely</input></td></tr>
+-->
+<tbody><tr>
+<th><label for="maxCO2Temp">Carbon Dioxide?</label></th>
+<td><input id="maxCO2Temp" value=" 5942" size="6" readonly="readonly" type="text"></td>
+</tr>
+<tr>
+<th><label for="maxO2Temp">Oxygen?</label></th>
+<td><input id="maxO2Temp" value=" 4247" size="6" readonly="readonly" type="text"></td>
+</tr>
+<tr>
+<th><label for="maxHeTemp">Helium?</label></th>
+<td><input id="maxHeTemp" value=" 292" size="6" readonly="readonly" type="text"></td>
+</tr>
+<tr>
+<th><label for="maxHTemp">Hydrogen?</label></th>
+<td><input id="maxHTemp" value=" 9" size="6" readonly="readonly" type="text"></td>
+</tr>
+</tbody></table>
+</form>
+<p>* More properly it should be Thermosphere temperature (look it up), which for Earth gets as high as 2000 C</p>
+<hr>
+<p style="text-align: center;">Suggestions for improvement? Ideas for new calculators? Problems with this page? 
+<a href="mailto:THTravellerATtalktalk.net">E-mail me</a>.</p>
+<p style="text-align: center;"><a href="http://www.transhuman.talktalk.net/iw/traveller.html">Home</a></p>
+</body></html>

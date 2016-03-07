@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><!-- Copyright � John B Stone --><!-- Free for non-commercial use only -->
+
+
+
+
+<meta name="description" content="Continuous thrust travel time calculator for spacecraft"><title>Utility - Continuous Thrust Travel Times</title>
+
+
+
+<script type="text/JavaScript">
+
+<!--
+var G, D, turnover, maxV;
+var days, hours, minutes;
+
+function initialise()
+{
+        turnover=1;
+}
+function paramsOK(formObj)
+{
+  if (formObj.distance.value.length == 0)       {return false;}
+  if (formObj.G.value.length == 0)                      {return false;}
+
+  D = parseFloat(formObj.distance.value);
+  G = parseFloat(formObj.G.value);
+
+  if (G == isNaN || D == isNaN)                         {return false;}
+
+  return true;
+}
+function CalcTravTime(formObj)
+{
+  if(paramsOK(formObj))
+  {
+        if(turnover==1) multiple=2; else multiple=1;
+
+        G = G * 0.0098;
+
+        result = multiple*Math.sqrt(turnover*formObj.distance.value*1000000 / G ) / 60;
+	hours = Math.floor(result / 60);
+
+	days = Math.floor(hours / 24);
+	
+	minutes = Math.floor (result % 60);
+	hours = Math.floor (hours % 24);
+
+        formObj.days.value = days;
+        formObj.hours.value = hours;
+        formObj.minutes.value = minutes;
+
+	maxV = result * 60 / multiple * G;
+
+	if (maxV <  1)
+		maxV = Math.floor(maxV*100)/100;
+	else if (maxV < 10)
+		maxV = Math.floor(maxV*10)/10;
+	else
+		maxV= Math.floor(maxV);
+
+        formObj.MaxV.value = maxV;
+  }
+}
+-->
+
+</script></head><body onload="initialise()" style="background-color: silver;">
+
+<noscript>You must have a JavaScript enabled browser to use this page (and you don't).</noscript>
+
+<h1 style="text-align: center;">Continuous Thrust Travel Time Calculator</h1>
+
+<p>Form to calculate continuous thrust travel times in space.</p>
+<p>Select or enter the desired distance, acceleration and turnover option and press calculate.</p>
+
+<form name="Data" action="" id="Data">
+
+
+<p><label for="distance">Distance: </label><input id="distance" value="1.3" size="6" type="text"> million km</p>
+
+<table summary="layout">
+<tbody><tr>
+
+<td><input name="100D" id="D1" onclick="Data.distance.value='0.4'" type="radio"><label for="D1">Earth - Moon</label></td>
+<td><input name="100D" id="D2" onclick="Data.distance.value='1.3'" checked="checked" type="radio"><label for="D2">Earth 100 Diameters</label></td>
+</tr>
+<tr>
+<td><input name="100D" id="D3" onclick="Data.distance.value='280'" type="radio"><label for="D3">Earth - Mars (median)</label></td>
+<td><input name="100D" id="D4" onclick="Data.distance.value='4'" type="radio"><label for="D4">Smallest Gas Giant 100 Diameters</label></td>
+</tr>
+<tr>
+<td><input name="100D" id="D5" onclick="Data.distance.value='800'" type="radio"><label for="D5">Earth - Jupiter (median)</label></td>
+<td><input name="100D" id="D6" onclick="Data.distance.value='14.4'" type="radio"><label for="D6">Largest Gas Giant 100 Diameters</label></td>
+</tr>
+</tbody></table>
+
+<p>
+
+<label for="G">Gs Acceleration:</label>
+<input id="G" value="1" maxlength="8" size="8" type="text">
+
+<input name="accel" id="g0" onclick="Data.G.value=0.001" type="radio"><label for="g0">0.001</label>  
+<input name="accel" id="g1" onclick="Data.G.value=0.01" type="radio"><label for="g1">0.01</label>  
+<input name="accel" id="g2" onclick="Data.G.value=0.1" type="radio"><label for="g2">0.1 </label>  
+<input name="accel" id="g3" onclick="Data.G.value=0.5" type="radio"><label for="g3">0.5 </label> 
+<input name="accel" id="g4" onclick="Data.G.value=1" checked="checked" type="radio"><label for="g4">1</label>  
+<input name="accel" id="g5" onclick="Data.G.value=2" type="radio"><label for="g5">2</label>  
+<input name="accel" id="g6" onclick="Data.G.value=3" type="radio"><label for="g6">3</label>  
+<input name="accel" id="g7" onclick="Data.G.value=4" type="radio"><label for="g7">4</label> 
+<input name="accel" id="g8" onclick="Data.G.value=5" type="radio"><label for="g8">5</label>  
+<input name="accel" id="g9" onclick="Data.G.value=6" type="radio"><label for="g9">6</label>  
+<input name="accel" id="g10" onclick="Data.G.value=10" type="radio"><label for="g10">10</label>
+</p>
+
+
+<p><input name="Turnover" id="t1" value="1" onkeypress="turnover=2" onclick="turnover=1" checked="checked" type="radio"><label for="t1">With Turnover</label>
+- Normal travel requires you to accelerate for half the journey then decelerate for the other half.</p>
+
+<p><input name="Turnover" id="t2" value="2" onkeypress="turnover=2" onclick="turnover=2" type="radio"><label for="t2">No Turnover</label>
+- To get to a point as fast as possible but not stop there, e.g. for interception purposes.</p>
+
+<p>
+<input value="Calculate" name="calc" onclick="CalcTravTime(this.form)" onkeypress="CalcTravTime(this.form)" type="button"></p>
+
+<p>Travel Time = 
+
+<input id="days" value="0" size="4" readonly="readonly" type="text">
+<label for="days"> Days </label>
+
+<input id="hours" value="6" size="2" readonly="readonly" type="text">
+<label for="hours"> Hours </label>
+
+<input id="minutes" value="20" size="2" readonly="readonly" type="text">
+<label for="minutes"> Minutes </label></p>
+
+<p><label for="MaxV"> Maximum Velocity = </label>
+<input id="MaxV" value="112" size="5" readonly="readonly" type="text"> kilometres per second
+</p>
+</form>
+
+
+<p>Remember that in space everything is moving relative to everything
+else. So you have to kill your relative velocity as well as travel to
+your destination.</p>
+
+<p style="text-align: center;">Suggestions for improvement? Ideas for new calculators? Problems with this page? <a href="mailto:THTravellerATtalktalk.net">E-mail me</a>.</p>
+
+<p style="text-align: center;"><a href="http://www.transhuman.talktalk.net/iw/traveller.html">Home</a></p>
+
+</body></html>
