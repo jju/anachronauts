@@ -178,18 +178,16 @@ Enlistment: Int 5+
 ### Skills and Training:
 
 | Roll | Personal Development | Service Skills      | Advanced Edu (Min 8) |
-|-----:|:--------------------:|:--------------------|:---------------------|
-|    1 |        +1 Str        | Pilot (Space/Small) | Medic                |
-|    2 |        +1 Dex        | Survival            | Navigation           |
-|    3 |        +1 End        | Mechanic            | Engineer (any)       |
-|    4 |        +1 Int        | Astrogation         | Computer             |
-|    5 |        +1 Edu        | Comms               | Space Science (any)  |
-|    6 |   Jack of all Trades | Gun Combat (any)    | Jack of all Trades   |
-
----------------------------------
+|:----:|:--------------------:|:-------------------:|:--------------------:|
+|  1   |        +1 Str        | Pilot (Space/Small) | Medic                |
+|  2   |        +1 Dex        | Survival            | Navigation           |
+|  3   |        +1 End        | Mechanic            | Engineer (any)       |
+|  4   |        +1 Int        | Astrogation         | Computer             |
+|  5   |        +1 Edu        | Comms               | Space Science (any)  |
+|  6   |   Jack of all Trades | Gun Combat (any)    | Jack of all Trades   |
 
 | Roll | Specialist: Courier | Specialist: Survey | Specialist: Exploration |
-|-----:|:-------------------:|:-------------------|:------------------------|
+|:----:|:-------------------:|:------------------:|:-----------------------:|
 |  1   | Comms               | Sensors            | Sensors                 |
 |  2   | Sensors             | Persuade           | Pilot (spacecraft)      |
 |  3   | Pilot (spacecraft)  | Pilot (smallcraft) | Pilot (smallcraft)      |
@@ -197,12 +195,10 @@ Enlistment: Int 5+
 |  5   | Zero-G              | Diplomat           | Stealth                 |
 |  6   | Astrogation         | Streetwise         | Recon                   |
 
------------------------------------
-
 ### Ranks and Skills
 
 | Rank | Title        | Skill or Benefit |
-|:----:|:-------------|:-----------------|
+|:----:|:------------:|:----------------:|
 |  0   |              |                  |
 |  1   | Scout        | Vacc Suit 1      |
 |  2   |              |                  |
@@ -211,244 +207,197 @@ Enlistment: Int 5+
 |  5   |              |                  |
 |  6   |              |                  |
 
----------------------------------
-
 ### Mishaps
 
-  ------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  #### 1d6 {#d6 .TableHeading}   #### Mishap {#mishap .TableHeading}
-  1                              Severely injured in action. (This is the same as a result of 2 on the Injury table.) Alternatively, roll twice on the Injury table (page 37) and take the lower result.
-  2                              Psychologically damaged by your time in the scouts. Reduce your Intelligence or Social Standing by 1.
-  3                              Your ship is damaged, and you have to hitch-hike your way back across the stars to the nearest scout base. Gain 1d6 Contacts and 1d3 Enemies.
-  4                              You inadvertently cause a conflict between the Imperium and a minor world or race. Gain a Rival and Diplomat 1.
-  5                              You have no idea what happened to you – they found your ship drifting on the fringes of friendly space.
-  6                              Injured. Roll on the Injury table.
-  ------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------
+ 1d6  Mishap 
+----- ----------------------------------------------------
+  1   Severely injured in action. 
+      (This is the same as a result of 2 on the Injury table.) Alternatively, roll twice on the Injury table (page 37) and take the lower result.
+
+  2   Psychologically damaged by your time in the scouts. 
+      Reduce your Intelligence or Social Standing by 1.
+
+  3   Your ship is damaged, and you have to hitch-hike your way back across the stars to the nearest scout base. 
+      Gain 1d6 Contacts and 1d3 Enemies.
+
+  4   You inadvertently cause a conflict between the Imperium and a minor world or race. 
+      Gain a Rival and Diplomat 1.
+
+  5   You have no idea what happened to you & they found your ship drifting on the fringes of friendly space.
+
+  6   Injured. Roll on the Injury table.
+----------------------------------------------------------
+
 
 ### Events
 
-  -------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  #### 2d6 {#d6-1 .TableHeading}   #### Events {#events-1 .TableHeading}
-  2                                Disaster! Roll on the mishap table, but you are not ejected from this career.
-  3                                Your ship is ambushed by enemy vessels. Either run, and throw Pilot 8+ to escape, or treat with them and throw Persuade 10+ to bargain with them. If you fail the check, then your ship is destroyed and you may not re-enlist in the Scouts at the end of this term. If you succeed, you survive and gain Sensors 1. Either way, gain an Enemy.
-  4                                You survey an alien world. Gain one of Animals (riding or training) 1, Survival 1, Recon 1 or Life Science (any) 1
-  5                                You perform an exemplary service for the scouts. Gain a +1 DM to any one Benefit roll.
-  6                                You spend several years jumping from world to world in your scout ship. Gain one of Astrogation 1, Navigation 1, Pilot (small craft) 1 or Mechanic 1.
-  7                                Life Event. Roll on the Life Events table (page 34).
-  8                                When dealing with an alien race, you have an opportunity to gather extra intelligence about them. Roll either Sensors 8+ or Deception 8+. If you succeed, gain an Ally in the Imperium and a +2 DM to your next Advancement roll. If you fail, roll on the Mishap table, but you are not ejected from this career.
-  9                                Your scout ship is one of the first on the scene to rescue the survivors of a disaster. Roll either Medic 8+ or Engineer 8+. If you succeed, gain a Contact and a +2 DM to your next Advancement check. If you fail, gain an Enemy.
-  10                               You spend a great deal of time on the fringes of known space. Roll Survival 8+ or Pilot 8+. If you succeed, gain a Contact in an alien race and one level in any skill of your choice. If you fail, roll on the Mishap table.
-  11                               You serve as the courier for an important message from the Imperium. Either gain one level of Diplomat, or take a +4 DM to your next Advancement roll.
-  12                               You discover a world, item or information of worth to the Imperium. You are automatically promoted.
-  -------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------
+ 2d6  Events
+----- -----------------------------------------------------
+  2   Disaster! Roll on the mishap table, but you are not ejected from this career.
+
+  3   Your ship is ambushed by enemy vessels. Either run, and throw Pilot 8+ to escape, or treat with them and throw Persuade 10+ to bargain with them. If you fail the check, then your ship is destroyed and you may not re-enlist in the Scouts at the end of this term. If you succeed, you survive and gain Sensors 1. Either way, gain an Enemy.
+
+  4   You survey an alien world. Gain one of Animals (riding or training) 1, Survival 1, Recon 1 or Life Science (any) 1
+
+  5   You perform an exemplary service for the scouts. Gain a +1 DM to any one Benefit roll.
+
+  6   You spend several years jumping from world to world in your scout ship. Gain one of Astrogation 1, Navigation 1, Pilot (small craft) 1 or Mechanic 1.
+
+  7   Life Event. Roll on the Life Events table.
+
+  8   When dealing with an alien race, you have an opportunity to gather extra intelligence about them. Roll either Sensors 8+ or Deception 8+. If you succeed, gain an Ally in the Imperium and a +2 DM to your next Advancement roll. If you fail, roll on the Mishap table, but you are not ejected from this career.
+
+  9   Your scout ship is one of the first on the scene to rescue the survivors of a disaster. Roll either Medic 8+ or Engineer 8+. If you succeed, gain a Contact and a +2 DM to your next Advancement check. If you fail, gain an Enemy.
+
+  10  You spend a great deal of time on the fringes of known space. Roll Survival 8+ or Pilot 8+. If you succeed, gain a Contact in an alien race and one level in any skill of your choice. If you fail, roll on the Mishap table.
+
+  11  You serve as the courier for an important message from the Imperium. Either gain one level of Diplomat, or take a +4 DM to your next Advancement roll.
+
+  12  You discover a world, item or information of worth to the Imperium. You are automatically promoted.
+
+-----------------------------------------------------------
+
 
 Drifters and The Draft
 ----------------------
 
-You may attempt to enlist in one career each term if you are not
-continuing on in an existing career. If you fail to for a new career,
-you have two options. You can apply to the Draft and be randomly sent to
-one of the military services or you may spend that term travelling
-through known space as a Drifter without a career or purpose. A
-character may only enter the Draft once.
+You may attempt to enlist in one career each term if you are not continuing on in an existing career. If you fail to for a new career, you have two options. You can apply to the Draft and be randomly sent to one of the military services or you may spend that term travelling through known space as a Drifter without a career or purpose. A character may only enter the Draft once.
 
 ### Draft Table
 
-  ----- -----------------------------
-  1d6   Career (speciality)
-  1     Navy (any)
-  2     Army (any)
-  3     Marines (any)
-  4     Merchants (merchant marine)
-  5     Scouts (any)
-  6     Agent (law enforcement)
-  ----- -----------------------------
+ 1d6 | Career (speciality)  
+:---:|:--------------------
+  1  | Navy (any)           
+  2  | Army (any)
+  3  | Marines (any) 
+  4  | Merchants (merchant marine)
+  5  | Scouts (any)
+  6  | Agent (law enforcement)
 
 Life Events
 -----------
 
-If you roll a Life Event on the Events table for your career, roll on
-the Life Events table.
+If you roll a Life Event on the Events table for your career, roll on the Life Events table.
 
 Mustering Out Benefits
 ----------------------
 
-Benefits are gained when a character leaves a career for any reason
-other than failing a survival roll.
+Benefits are gained when a character leaves a career for any reason other than failing a survival roll.
 
-You may only roll on the Cash table a maximum of three times no matter
-how many careers you have had.
+You may only roll on the Cash table a maximum of three times no matter how many careers you have had.
 
 ### Cash Benefits
 
-A character with the Gambler skill at level 1 or better gets a +1 DM to
-all rolls on the Cash table.
+A character with the Gambler skill at level 1 or better gets a +1 DM to all rolls on the Cash table.
 
-If the character has any money after rolling on the Cash table then he
-may purchase personal equipment worth up to 2,000 credits immediately.
+If the character has any money after rolling on the Cash table then he may purchase personal equipment worth up to 2,000 credits immediately.
 
 ### Other Benefits
 
-When you leave a career in good standing with your previous employers,
-you are permitted to keep various pieces of equipment or even shares of
-a vessel.
+When you leave a career in good standing with your previous employers, you are permitted to keep various pieces of equipment or even shares of a vessel.
 
 #### Retirement Pay
 
-A character that leaves a service at the end of the 5^th^ or later term
-of service may receive retirement pay.
+A character that leaves a service at the end of the 5^th^ or later term of service may receive retirement pay.
 
-  ------- --------------------------
-  Terms   Pay
-  5       Cr. 10,000
-  6       Cr. 12,000
-  7       Cr. 14,000
-  8       Cr. 16,000
-  9+      +2,000 per term beyond 8
-  ------- --------------------------
+ Terms | Pay
+:-----:|:-------------------------
+   5   | Cr. 10,000
+   6   | Cr. 12,000
+   7   | Cr. 14,000
+   8   | Cr. 16,000
+   9+  | +2,000 per term beyond 8
 
 Ageing
 ------
 
-The effects of ageing begin when a character reaches 34 years of age. At
-the end of the fourth term, and at the end of every term thereafter, the
-character must roll 2d6 on the Ageing Table. Apply the character’s total
-number of terms as a negative Dice Modifier on this table.
+The effects of ageing begin when a character reaches 34 years of age. At the end of the fourth term, and at the end of every term thereafter, the character must roll 2d6 on the Ageing Table. Apply the character’s total number of terms as a negative Dice Modifier on this table.
 
-### Ageing Table
+Ageing Crisis: If any characteristic is reduced to 0 by ageing, then the character suffers an ageing crisis. The character dies unless he can pay 1d6 x 10,000 credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms.
 
-  ----- -----------------------------------------------------------------------------------
-  2d6   Effects of Aging
-  –6    Reduce three physical characteristics by 2, reduce one mental characteristic by 1
-  –5    Reduce three physical characteristics by 2.
-  –4    Reduce two physical characteristics by 2, reduce one physical characteristic by 1
-  –3    Reduce one physical characteristic by 2, reduce two physical characteristic by 1
-  –2    Reduce three physical characteristics by 1
-  –1    Reduce two physical characteristics by 1
-  0     Reduce one physical characteristic by 1
-  1+    No effect
-  ----- -----------------------------------------------------------------------------------
+Anagathics: While using anagathic drugs, the character effectively does not age – add the number of terms since the character started taking anagathics as a positive Dice Modifier to rolls on the ageing table. If a character stops taking anagathics, then he must roll immediately on the ageing table to simulate the shock that comes from his system beginning to age again.
 
-Ageing Crisis: If any characteristic is reduced to 0 by ageing, then the
-character suffers an ageing crisis. The character dies unless he can pay
-1d6 x 10,000 credits for medical care, which will bring any
-characteristics back up to 1. The character automatically fails any
-Qualification checks from now on – he must either continue in the career
-he is in or become a Drifter if he wishes to take\
-any more terms.
+The risk of trying to obtain a reliable supply and the disruption to the character’s biochemistry means the character must make a second Survival check if he passes his first Survival check in a term. If either check is failed, the character suffers a mishap and is ejected from the career.
 
-Anagathics: While using anagathic drugs, the character effectively does
-not age – add the number of terms since the character started taking
-anagathics as a positive Dice Modifier to rolls on the ageing table. If
-a character stops taking anagathics, then he must roll immediately on
-the ageing table to simulate the shock that comes from his system
-beginning to age again.
-
-The risk of trying to obtain a reliable supply and the disruption to the
-character’s biochemistry means the character must make a second Survival
-check if he passes his first Survival check in a term. If either check
-is failed, the character suffers a mishap and is ejected from the
-career.
-
-The drugs cost 1d6 x 2,500 Credits for each term that the character uses
-the drugs. These costs are paid out of the character’s eventual
-mustering-out cash benefits. If the character cannot pay these bills, he
-goes into debt.
+The drugs cost 1d6 x 2,500 Credits for each term that the character uses the drugs. These costs are paid out of the character’s eventual mustering-out cash benefits. If the character cannot pay these bills, he goes into debt.
 
 Injuries
 --------
 
-Characters that are wounded in combat or accidents during character
-creation must roll on the Injury table.
+Characters that are wounded in combat or accidents during character creation must roll on the Injury table.
 
 #### Injury Table
 
-  ----- ----------------------------------------------------------------------------------------------------------------------------------
-  1d6   Injury
-  1     Nearly killed. Reduce one physical characteristic by 1d6, reduce both other physical characteristics by 2 (or one of them by 4).
-  2     Severely injured. Reduce one physical characteristic by 1d6.
-  3     Missing eye or limb. Reduce Strength or Dexterity by 2.
-  4     Scarred. You are scarred and injured. Reduce any one physical characteristic by 2.
-  5     Injured. Reduce any physical characteristic by 1.
-  6     Lightly injured. No permanent effect.
-  ----- ----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------
+ 1d6  Injury
+----- ----------------------------------------------------
+  1   Nearly killed. Reduce one physical characteristic by 1d6, reduce both other physical characteristics by 2 (or one of them by 4).
 
-Injury Crisis: If any characteristic is reduced to 0, then the character
-suffers an injury crisis. The character dies unless he can pay 1d6 x
-10,000 credits for medical care, which will bring any characteristics
-back up to 1. The character automatically fails any Qualification checks
-from now on – he must either continue in the career he is in or become a
-Drifter if he wishes to take any more terms.
+  2   Severely injured. Reduce one physical characteristic by 1d6.
 
-Medical Care: If your character has been injured, then medical care may
-be able to undo the effects of damage. The restoration of a lost
-characteristic costs 5,000 Credits per point.
+  3   Missing eye or limb. Reduce Strength or Dexterity by 2.
 
-If your character was injured in the service of a patron or
-organisation, then a portion of his medical care may be paid for by that
-patron. Roll 2d6 on the table below, adding your Rank as a DM. The
-result is how much of his medical care is paid for by his employer.
+  4   Scarred. You are scarred and injured. Reduce any one physical characteristic by 2.
+
+  5   Injured. Reduce any physical characteristic by 1.
+
+  6   Lightly injured. No permanent effect.
+
+-----------------------------------------------------------
+
+Injury Crisis: If any characteristic is reduced to 0, then the character suffers an injury crisis. The character dies unless he can pay 1d6 x 10,000 credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms.
+
+Medical Care: If your character has been injured, then medical care may be able to undo the effects of damage. The restoration of a lost characteristic costs 5,000 Credits per point.
+
+If your character was injured in the service of a patron or organisation, then a portion of his medical care may be paid for by that patron. Roll 2d6 on the table below, adding your Rank as a DM. The result is how much of his medical care is paid for by his employer.
 
 #### Medical Bills
 
-  -------------------------------------- ------------ ------------ -------------
-  Career                                 Roll of 4+   Roll of 8+   Roll of 12+
+--------------------------------------------------------------
+ Career                 Roll of 4+   Roll of 8+   Roll of 12+
+---------------------- ------------ ------------ -------------
+Army/Navy/Marines           75%         100%          100% 
 
-  Army/Navy/Marines                      75%          100%         100%
+Agent/Nobility/             50%          75%          100%
+Scholar/Entertainer/
+Merchant/Citizen                             
 
-  Agent/Nobility/                        50%          75%          100%
-                                                                   
-  Scholar/Entertainer/Merchant/Citizen                             
+Scout/Rogue/Drifter          0%          50%           75%
 
-  Scout/Rogue/Drifter                    0%           50%          75%
-  -------------------------------------- ------------ ------------ -------------
+--------------------------------------------------------------
 
 Medical Debt
 ------------
 
-During finishing touches, you must pay any outstanding costs from
-medical care or anagathic drugs out of your Benefits before anything
-else.
+During finishing touches, you must pay any outstanding costs from medical care or anagathic drugs out of your Benefits before anything else.
 
 Finalise Connections
 --------------------
 
-The connections between characters rule can give you bonus skills. At
-this stage, you may make (or finalise) a connection between your
-character and up to two other player characters. For each connection you
-make, you may gain one level in any skill, but you cannot bring a skill
-above level 3 using this rule nor may you take the Jack of all Trades
-skill.
+The connections between characters rule can give you bonus skills. At this stage, you may make (or finalise) a connection between your character and up to two other player characters. For each connection you make, you may gain one level in any skill, but you cannot bring a skill above level 3 using this rule nor may you take the Jack of all Trades skill.
 
 Skill Packages
 --------------
 
 As a group, select one of the following skill packages.
 
-Traveller Skill Package: Pilot (any) 1, Sensors 1, Comms 1, Gunner (any)
-1, Gun Combat (any) 1, Persuade 1, Stealth 1, Medic 1.
+Traveller Skill Package: Pilot (any) 1, Sensors 1, Comms 1, Gunner (any) 1, Gun Combat (any) 1, Persuade 1, Stealth 1, Medic 1.
 
-Mercenary Skill Package: Sensors 1, Comms 1, Medic 1, Leadership 1,
-Heavy Weapons (any) 1, Gun Combat (any) 1, Gun Combat (any) 1, Stealth
-1.
+Mercenary Skill Package: Sensors 1, Comms 1, Medic 1, Leadership 1, Heavy Weapons (any) 1, Gun Combat (any) 1, Gun Combat (any) 1, Stealth 1.
 
-Trader Skill Package: Pilot (any) 1, Sensors 1, Medic 1, Streetwise 1,
-Broker 1, Advocate 1, Diplomat 1, Astrogation 1.
+Trader Skill Package: Pilot (any) 1, Sensors 1, Medic 1, Streetwise 1, Broker 1, Advocate 1, Diplomat 1, Astrogation 1.
 
-Starship Skills Package: Pilot (any) 1, Gunner (any) 1, Engineer (any)
-1, Mechanic 1, Sensors 1, Medic 1, Comms 1, Astrogation 1.
+Starship Skills Package: Pilot (any) 1, Gunner (any) 1, Engineer (any) 1, Mechanic 1, Sensors 1, Medic 1, Comms 1, Astrogation 1.
 
-Explorer Skills Package: Pilot (any) 1, Astrogation 1, Sensors 1,
-Survival 1, Recon 1, Gun Combat (any) 1, Stealth 1, Medic 1
+Explorer Skills Package: Pilot (any) 1, Astrogation 1, Sensors 1, Survival 1, Recon 1, Gun Combat (any) 1, Stealth 1, Medic 1
 
-Diplomat Skill Package: Advocate 1, Diplomat 1, Persuade 1, Stealth 1,
-Streetwise 1, Deception 1, Computers 1, Comms 1.
+Diplomat Skill Package: Advocate 1, Diplomat 1, Persuade 1, Stealth 1, Streetwise 1, Deception 1, Computers 1, Comms 1.
 
-Investigator Skill Package: Advocate 1, Admin 1, Investigate 1, Persuade
-1, Stealth 1, Streetwise 1, Computers 1, Sensors 1, Gun Combat (any) 1
+Investigator Skill Package: Advocate 1, Admin 1, Investigate 1, Persuade 1, Stealth 1, Streetwise 1, Computers 1, Sensors 1, Gun Combat (any) 1
 
-Criminal Skill Package: Pilot (any) 1, Sensors 1, Stealth 1, Deception
-1, Persuade 1, Streetwise 1, Broker 1, Medic 1.
+Criminal Skill Package: Pilot (any) 1, Sensors 1, Stealth 1, Deception 1, Persuade 1, Streetwise 1, Broker 1, Medic 1.
 
 Aliens
 ======
