@@ -5,26 +5,11 @@ title: Traveller System Reference Document
 Die Roll Conventions
 ====================
 
-Check (or Throw): To determine if a character succeeds or fails at a
-particular task, the player must make a check. To make a check, the
-player rolls 2d6 and adds any appropriate Dice Modifiers (such as a
-skill his character possesses, or a bonus from a piece of equipment). If
-the total is equal to or greater than the target number for that check,
-he succeeds. A check will usually have a skill or characteristic
-associated with it. For example, a check of ‘Dex 8+’ means ‘roll 2d6,
-add your Dexterity Characteristic Modifier, and you succeed if you have
-a total result of 8 or more’.
+Check (or Throw): To determine if a character succeeds or fails at a particular task, the player must make a check. To make a check, the player rolls 2d6 and adds any appropriate Dice Modifiers (such as a skill her character possesses, or a bonus from a piece of equipment). If the total is equal to or greater than the target number for that check, she succeeds. A check will usually have a skill or characteristic associated with it. For example, a check of ‘Dex 8+’ means ‘roll 2d6, add your Dexterity Characteristic Modifier, and you succeed if you have a total result of 8 or more’.
 
-Target Numbers: In many checks, the player needs to roll equal to or
-above a specific number (usually, eight or more). This is denoted by a
-number followed by a plus, such as 8+ or 10+.
+Target Numbers: In many checks, the player needs to roll equal to or above a specific number (usually, eight or more). This is denoted by a number followed by a plus, such as 8+ or 10+.
 
-Dice Modifier (abbreviated to DM): A number to be applied to a die roll
-before it is used. Dice Modifiers are preceded by a sign, which
-indicates if the number is to be added to or subtracted from the roll.
-For example, a Dice Modifier of –2 indicates that two is to be
-subtracted from the roll; a Die Modifier of +4 indicates that four is to
-be added to the roll.
+Dice Modifier (abbreviated to DM): A number to be applied to a die roll before it is used. Dice Modifiers are preceded by a sign, which indicates if the number is to be added to or subtracted from the roll. For example, a Dice Modifier of –2 indicates that two is to be subtracted from the roll; a Die Modifier of +4 indicates that four is to be added to the roll.
 
 Technology Levels
 =================
@@ -38,62 +23,44 @@ TL 1: (Primitive) Roughly on a par with Bronze or Iron age technology.
 
 TL 2: (Primitive) Renaissance technology.
 
-TL 3: (Primitive) The advances of TL 2 are now applied, bringing the
-germ of industrial revolution and steam power.
+TL 3: (Primitive) The advances of TL 2 are now applied, bringing the germ of industrial revolution and steam power.
 
-TL 4: (Industrial) The transition to industrial revolution is complete,
-bringing plastics, radio and other such inventions.
+TL 4: (Industrial) The transition to industrial revolution is complete, bringing plastics, radio and other such inventions.
 
-TL 5: (Industrial) TL 5 brings widespread electrification,
-tele-communications and internal combustion.
+TL 5: (Industrial) TL 5 brings widespread electrification, tele-communications and internal combustion.
 
-TL 6: (Industrial) TL 6 brings the development of fission power and more
-advanced computing.
+TL 6: (Industrial) TL 6 brings the development of fission power and more advanced computing.
 
-TL 7: (Pre-Stellar) A pre-stellar society can reach orbit reliably and
-has telecommunications satellites.
+TL 7: (Pre-Stellar) A pre-stellar society can reach orbit reliably and has telecommunications satellites.
 
-TL 8: (Pre-Stellar) At TL 8, it is possible to reach other worlds in the
-same system, although terraforming or full colonisation are not within
-the culture’s capacity.
+TL 8: (Pre-Stellar) At TL 8, it is possible to reach other worlds in the same system, although terraforming or full colonisation are not within the culture’s capacity.
 
-TL 9: (Pre-Stellar) The defining element of TL 9 is the development of
-gravity manipulation, which makes space travel vastly safer and faster.
+TL 9: (Pre-Stellar) The defining element of TL 9 is the development of gravity manipulation, which makes space travel vastly safer and faster.
 
-TL 10: (Early Stellar) With the advent of Jump, nearby systems are
-opened up.
+TL 10: (Early Stellar) With the advent of Jump, nearby systems are opened up.
 
-TL 11: (Early Stellar) The first true artificial intelligences become
-possible, as computers are able to model synaptic networks.
+TL 11: (Early Stellar) The first true artificial intelligences become possible, as computers are able to model synaptic networks.
 
-TL 12: (Average Stellar) Weather control revolutionises terraforming and
-agriculture.
+TL 12: (Average Stellar) Weather control revolutionises terraforming and agriculture.
 
-TL 13: (Average Stellar) The battle dress appears on the battlefield in
-response to the new weapons.
+TL 13: (Average Stellar) The battle dress appears on the battlefield in response to the new weapons.
 
 TL 14: (Average Stellar) Fusion weapons become man-portable.
 
-TL 15: (High Stellar) Black globe generators suggest a new direction for
-defensive technologies, while the development of synthetic anagathics
-means that the human lifespan is now vastly increased.
+TL 15: (High Stellar) Black globe generators suggest a new direction for defensive technologies, while the development of synthetic anagathics means that the human lifespan is now vastly increased.
 
-Higher Technology Levels exist and may appear in other settings or be
-discovered by pioneering scientists.
+Higher Technology Levels exist and may appear in other settings or be discovered by pioneering scientists.
 
 Characteristics
 ===============
 
-Every person and creature in Traveller has several characteristics that
-describe their base mental and physical potential.
+Every person and creature in Traveller has several characteristics that describe their base mental and physical potential.
 
-Strength (Str): A character’s physical strength, fitness and
-forcefulness.
+Strength (Str): A character’s physical strength, fitness and forcefulness.
 
 Dexterity (Dex): Physical co-ordination and agility, reflexes.
 
-Endurance (End): A character’s ability to sustain damage, stamina and
-determination.
+Endurance (End): A character’s ability to sustain damage, stamina and determination.
 
 Intelligence (Int): A character’s intellect and quickness of mind.
 
@@ -104,43 +71,20 @@ Social Standing (Soc): A character’s place in society.
 Skills
 ======
 
-If a character has no level in a skill, then he is untrained and will
-suffer a –3 Dice Modifier when trying to use that skill.
+If a character has no level in a skill, then she is untrained and will suffer a –3 Dice Modifier when trying to use that skill.
 
-If a character has zero level in a skill (Skill 0), then he is competent
-in using that skill, but has little experience. He does not get any
-bonus from his skill ranks when using that skill but at least he avoids
-the penalty for being untrained.
+If a character has zero level in a skill (Skill 0), then she is competent in using that skill, but has little experience. She does not get any bonus from her skill ranks when using that skill but at least she avoids the penalty for being untrained.
 
-If a character has one or more level in a skill (Level 1, Level 2, and
-so on) then he is trained in that skill. Each rank represents several
-years of experience using that skill. A character with Level 2–3 in a
-skill is a skilled professional in that field.
+If a character has one or more level in a skill (Level 1, Level 2, and so on) then she is trained in that skill. Each rank represents several years of experience using that skill. A character with Level 2–3 in a skill is a skilled professional in that field.
 
-Some skills have specialities – specialised forms of that skill. A
-character picks a speciality when he gains level 1 in a skill with
-specialities. For example, a character might have Engineer 0, allowing
-him to make any Engineer skill checks without an unskilled penalty. He
-might then gain a level in Engineer, giving him Engineer (Jump drives)
-1. He would make all Engineer checks involving Jump drives at a +1 DM,
-but would make all other Engineer checks at a +0 DM. A character can
-have multiple specialities in a skill – an engineer might have Engineer
-(Jump drives) 1 and Engineer (power plant) 2. He would make checks
-related to Jump drives with a +1 DM, checks related to power plants with
-a +2 DM and all other Engineer checks with a +0 DM.
+Some skills have specialities – specialised forms of that skill. A character picks a speciality when he gains level 1 in a skill with specialities. For example, a character might have Engineer 0, allowing him to make any Engineer skill checks without an unskilled penalty. She might then gain a level in Engineer, giving her Engineer (Jump drives) 1. She would make all Engineer checks involving Jump drives at a +1 DM, but would make all other Engineer checks at a +0 DM. A character can have multiple specialities in a skill – an engineer might have Engineer (Jump drives) 1 and Engineer (power plant) 2. She would make checks related to Jump drives with a +1 DM, checks related to power plants with a +2 DM and all other Engineer checks with a +0 DM.
 
 Background Skills
 -----------------
 
-Before embarking on your careers, you get a number of background skills
-equal to 3 + your Education DM (1 to 5, depending on your Education
-score).
+Before embarking on your careers, you get a number of background skills equal to 3 + your Education DM (1 to 5, depending on your Education score).
 
-Homeworld: Growing up on your homeworld gave you skills that depend on
-the planet’s nature. You can select any skill that matches your
-homeworld’s planetary description and trade codes. If you came from a
-planet already established, then consult those sources for the planet’s
-description.
+Homeworld: Growing up on your homeworld gave you skills that depend on the planet’s nature. You can select any skill that matches your homeworld’s planetary description and trade codes. If you came from a planet already established, then consult those sources for the planet’s description.
 
 Agricultural: Animals 0
 
@@ -170,131 +114,68 @@ Water World: Seafarer 0
 
 Vacuum: Vacc Suit 0
 
-Education: A formal education gives you a basic level of competence in
-various sciences and academic disciplines. Any character may choose from
-the following list:
+Education: A formal education gives you a basic level of competence in various sciences and academic disciplines. Any character may choose from the following list:
 
-Admin 0, Advocate 0, Art 0, Carouse 0, Comms 0, Computer 0, Drive 0,
-Engineer 0, Language 0, Medic 0, Physical Science 0, Life Science 0,
-Social Science 0, Space Science 0, Trade 0.
+Admin 0, Advocate 0, Art 0, Carouse 0, Comms 0, Computer 0, Drive 0, Engineer 0, Language 0, Medic 0, Physical Science 0, Life Science 0, Social Science 0, Space Science 0, Trade 0.
 
 Careers
 =======
 
-At many points during a career, a character will have to make a throw of
-some sort. Most of these throws are characteristic throws – roll 2d6,
-add the DM from the listed characteristic, and try to get a total higher
-than the listed value. A throw of Int 8+ means ‘roll 2d6, add your
-Intelligence DM, and you succeed if you roll an 8 or more’. A few throws
-are skill checks, where you add any levels in that skill and the DM from
-an appropriate characteristic. For example, a throw of Gunnery 8+ would
-mean ‘roll 2d6, add your Gunnery skill and the DM from an appropriate
-characteristic such as Dexterity, and get over 8’.
+At many points during a career, a character will have to make a throw of some sort. Most of these throws are characteristic throws – roll 2d6, add the DM from the listed characteristic, and try to get a total higher than the listed value. A throw of Int 8+ means ‘roll 2d6, add your Intelligence DM, and you succeed if you roll an 8 or more’. A few throws are skill checks, where you add any levels in that skill and the DM from an appropriate characteristic. For example, a throw of Gunnery 8+ would mean ‘roll 2d6, add your Gunnery skill and the DM from an appropriate characteristic such as Dexterity, and get over 8’.
 
 Career Format
 -------------
 
-Qualification: What you need to roll to enter that career. Military
-careers use Enlistment as the description for this roll instead of
-qualification. If you fail this check then you cannot enter your chosen
-career this term. You must either submit to the Draft or take the
-Drifter career for this term. You suffer a –1 DM to qualification rolls
-for each previous career you have entered. Once you leave a career you
-cannot return to it. The Draft and the Drifter career are exceptions to
-this rule – you can be Drafted into a career you were previously in but
-got ejected from and the Drifter career is always open.
+Qualification: What you need to roll to enter that career. Military careers use Enlistment as the description for this roll instead of qualification. If you fail this check then you cannot enter your chosen career this term. You must either submit to the Draft or take the Drifter career for this term. You suffer a –1 DM to qualification rolls for each previous career you have entered. Once you leave a career you cannot return to it. The Draft and the Drifter career are exceptions to this rule – you can be Drafted into a career you were previously in but got ejected from and the Drifter career is always open.
 
-Skills and Training: Each career has skill tables associated with it –
-Personal Development, Service Skills, Specialist Skills and Advanced
-Education. In each term you spend in a career, pick one of these tables
-and roll 1d6 to see which skill you increase. You may only roll on
-Advanced Skills if your character has the listed qualification (usually
-Education 8+ or a certain Rank). You may only roll on the Officer Skills
-if your career has one and if you have received a commission.
+Skills and Training: Each career has skill tables associated with it – Personal Development, Service Skills, Specialist Skills and Advanced Education. In each term you spend in a career, pick one of these tables and roll 1d6 to see which skill you increase. You may only roll on Advanced Skills if your character has the listed qualification (usually Education 8+ or a certain Rank). You may only roll on the Officer Skills if your career has one and if you have received a commission.
 
-Skills can be listed with or without an associated level. If no rank is
-listed, then you gain that skill at Level 1 if you do not have it
-already, or increases its level by one if you are already trained in
-that field. If a rank is listed, then you gain the skill at that level
-as long as it is better than your current level in that skill.
+Skills can be listed with or without an associated level. If no rank is listed, then you gain that skill at Level 1 if you do not have it already, or increases its level by one if you are already trained in that field. If a rank is listed, then you gain the skill at that level as long as it is better than your current level in that skill.
 
-Basic Training: For your first career only, you get all the skills
-listed in the Service Skills table at Level 0 as your basic training.
-For any subsequent careers, you may pick any one skill listed in the
-Service Skills table at Level 0 as your basic training.
+Basic Training: For your first career only, you get all the skills listed in the Service Skills table at Level 0 as your basic training. For any subsequent careers, you may pick any one skill listed in the Service Skills table at Level 0 as your basic training.
 
-Survival: Each career has a survival roll. If you fail this roll, roll
-on the mishap table. This mishap is always enough to force you to leave
-the service. You lose the benefit roll for the current term only. A
-natural 2 is always a failure.
+Survival: Each career has a survival roll. If you fail this roll, roll on the mishap table. This mishap is always enough to force you to leave the service. You lose the benefit roll for the current term only. A natural 2 is always a failure.
 
-Events: If you are still in your career after resolving the survival
-roll, roll on the events table to see what interesting things befall you
-this term.
+Events: If you are still in your career after resolving the survival roll, roll on the events table to see what interesting things befall you this term.
 
-Commission: This only applies to the military careers of Army, Navy and
-Marines. A character who succeeds at a commission roll becomes a Rank 1
-officer in that career, and uses the officer Rank table from then on. A
-character may attempt a commission roll once per term, and trying for
-commission is optional.
+Commission: This only applies to the military careers of Army, Navy and Marines. A character who succeeds at a commission roll becomes a Rank 1 officer in that career, and uses the officer Rank table from then on. A character may attempt a commission roll once per term, and trying for commission is optional.
 
-If you obtain a commission after having already advanced several ranks,
-you become a Rank 1 officer as normal but you may add your two final
-ranks together for the purposes of determining benefits and pensions.
+If you obtain a commission after having already advanced several ranks, you become a Rank 1 officer as normal but you may add your two final ranks together for the purposes of determining benefits and pensions.
 
-Some events give a bonus DM to advancement rolls, or give automatic
-advancement. You can apply these DMs to commission rolls also.
+Some events give a bonus DM to advancement rolls, or give automatic advancement. You can apply these DMs to commission rolls also.
 
 Advancement: Each career has an advancement roll.
 
-If you make a successful Advancement roll, then you move to the next
-rank and gain an extra roll on any of the Skills and Training Tables for
-this career. You also get any benefits listed for your new rank. You may
-only attempt to advance once per term.
+If you make a successful Advancement roll, then you move to the next rank and gain an extra roll on any of the Skills and Training Tables for this career. You also get any benefits listed for your new rank. You may only attempt to advance once per term.
 
-If your result is equal to or less than the number of terms you have
-spent in this career, then you cannot continue in this career after this
-term. Either your services are no longer required, or events have caused
-you to leave, or perhaps you are simply bored and want a new challenge.
+If your result is equal to or less than the number of terms you have spent in this career, then you cannot continue in this career after this term. Either your services are no longer required, or events have caused you to leave, or perhaps you are simply bored and want a new challenge.
 
 If you roll a natural 12, then you must continue in this career.
 
-Ranks and Benefits: You start at Rank 0 in your career. Each time you
-succeed at an advancement check, you move onto the next Rank.
+Ranks and Benefits: You start at Rank 0 in your career. Each time you succeed at an advancement check, you move onto the next Rank.
 
-Some ranks have benefits associated with them, such as extra skills or
-more benefits. You gain these benefits as soon as you attain that rank.
+Some ranks have benefits associated with them, such as extra skills or more benefits. You gain these benefits as soon as you attain that rank.
 
-Mustering-Out Benefits: When you leave a career for any reason, you gain
-material benefits from that career. There are two tables – Cash and
-Benefits. You may only roll on the cash tables a maximum of three times,
-regardless of how many careers or benefit rolls you have. You get one
-benefit roll per full term served. Leaving due to a mishap means you
-lose the benefit roll for that term, but not previous full terms in that
-career.
+Mustering-Out Benefits: When you leave a career for any reason, you gain material benefits from that career. There are two tables – Cash and Benefits. You may only roll on the cash tables a maximum of three times, regardless of how many careers or benefit rolls you have. You get one benefit roll per full term served. Leaving due to a mishap means you lose the benefit roll for that term, but not previous full terms in that career.
 
-If you reached rank 1 or 2, you get an extra benefit roll when leaving
-that service. If you reached rank 3 or 4, you get two extra benefit
-rolls, and if you reached rank 5 or 6, you get three extra benefit rolls
-and may apply a +1 to rolls on the Benefits table that you gain from
-that career.
+If you reached rank 1 or 2, you get an extra benefit roll when leaving that service. If you reached rank 3 or 4, you get two extra benefit rolls, and if you reached rank 5 or 6, you get three extra benefit rolls and may apply a +1 to rolls on the Benefits table that you gain from that career.
 
 Sample Career: Scout
 --------------------
 
-### Enlistment: Int 5+ 
+Enlistment: Int 5+ 
 
 –1 DM for every previous career.
 
 ### Assignments: Choose one of the following:
 
->  Courier
+> Courier
 >
->  Survey
+> Survey
 >
->  Exploration
+> Exploration
 
-#### Skills and Training:
+### Skills and Training:
 
 | Roll | Personal Development | Service Skills      | Advanced Edu (Min 8) |
 |-----:|:--------------------:|:--------------------|:---------------------|
@@ -307,29 +188,30 @@ Sample Career: Scout
 
 ---------------------------------
 
-  #### Roll {#roll-1 .TableHeading}   #### Specialist: Courier {#specialist-courier .TableHeading}   #### Specialist: Survey {#specialist-survey .TableHeading}   #### Specialist: Exploration {#specialist-exploration .TableHeading}
-  1                                   Comms                                                          Sensors                                                      Sensors
-  2                                   Sensors                                                        Persuade                                                     Pilot (spacecraft)
-  3                                   Pilot (spacecraft)                                             Pilot (small craft)                                          Pilot (small craft)
-  4                                   Vacc Suit                                                      Navigation                                                   Life Science (any)
-  5                                   Zero-G                                                         Diplomat                                                     Stealth
-  6                                   Astrogation                                                    Streetwise                                                   Recon
-  ----------------------------------- -------------------------------------------------------------- ------------------------------------------------------------ ----------------------------------------------------------------------
+| Roll | Specialist: Courier | Specialist: Survey | Specialist: Exploration |
+|-----:|:-------------------:|:-------------------|:------------------------|
+|  1   | Comms               | Sensors            | Sensors                 |
+|  2   | Sensors             | Persuade           | Pilot (spacecraft)      |
+|  3   | Pilot (spacecraft)  | Pilot (smallcraft) | Pilot (smallcraft)      |
+|  4   | Vacc Suit           | Navigation         | Life Science (any)      |
+|  5   | Zero-G              | Diplomat           | Stealth                 |
+|  6   | Astrogation         | Streetwise         | Recon                   |
 
-#### 
+-----------------------------------
 
-#### Ranks and Skills
+### Ranks and Skills
 
-  --------------------------------- ----------------------------------- ---------------------------------------------------------
-  #### Rank {#rank .TableHeading}   #### Title {#title .TableHeading}   #### Skill or Benefit {#skill-or-benefit .TableHeading}
-  0                                                                     
-  1                                 Scout                               Vacc Suit 1
-  2                                                                     
-  3                                 Senior Scout                        Pilot 1
-  4                                                                     
-  5                                                                     
-  6                                                                     
-  --------------------------------- ----------------------------------- ---------------------------------------------------------
+| Rank | Title        | Skill or Benefit |
+|:----:|:-------------|:-----------------|
+|  0   |              |                  |
+|  1   | Scout        | Vacc Suit 1      |
+|  2   |              |                  |
+|  3   | Senior Scout | Pilot 1          |
+|  4   |              |                  |
+|  5   |              |                  |
+|  6   |              |                  |
+
+---------------------------------
 
 ### Mishaps
 
