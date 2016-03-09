@@ -17,37 +17,53 @@ Technology Levels
 Technology Levels measure the scientific capacity of a world and the
 complexity and effectiveness of a piece of equipment.
 
-TL 0: (Primitive) No technology.
+TL 0
+: (Primitive) No technology.
 
-TL 1: (Primitive) Roughly on a par with Bronze or Iron age technology.
+TL 1
+: (Primitive) Roughly on a par with Bronze or Iron age technology.
 
-TL 2: (Primitive) Renaissance technology.
+TL 2
+: (Primitive) Renaissance technology.
 
-TL 3: (Primitive) The advances of TL 2 are now applied, bringing the germ of industrial revolution and steam power.
+TL 3
+: (Primitive) The advances of TL 2 are now applied, bringing the germ of industrial revolution and steam power.
 
-TL 4: (Industrial) The transition to industrial revolution is complete, bringing plastics, radio and other such inventions.
+TL 4
+: (Industrial) The transition to industrial revolution is complete, bringing plastics, radio and other such inventions.
 
-TL 5: (Industrial) TL 5 brings widespread electrification, tele-communications and internal combustion.
+TL 5
+: (Industrial) TL 5 brings widespread electrification, tele-communications and internal combustion.
 
-TL 6: (Industrial) TL 6 brings the development of fission power and more advanced computing.
+TL 6
+: (Industrial) TL 6 brings the development of fission power and more advanced computing.
 
-TL 7: (Pre-Stellar) A pre-stellar society can reach orbit reliably and has telecommunications satellites.
+TL 7
+: (Pre-Stellar) A pre-stellar society can reach orbit reliably and has telecommunications satellites.
 
-TL 8: (Pre-Stellar) At TL 8, it is possible to reach other worlds in the same system, although terraforming or full colonisation are not within the culture’s capacity.
+TL 8
+: (Pre-Stellar) At TL 8, it is possible to reach other worlds in the same system, although terraforming or full colonisation are not within the culture’s capacity.
 
-TL 9: (Pre-Stellar) The defining element of TL 9 is the development of gravity manipulation, which makes space travel vastly safer and faster.
+TL 9
+: (Pre-Stellar) The defining element of TL 9 is the development of gravity manipulation, which makes space travel vastly safer and faster.
 
-TL 10: (Early Stellar) With the advent of Jump, nearby systems are opened up.
+TL 10
+: (Early Stellar) With the advent of Jump, nearby systems are opened up.
 
-TL 11: (Early Stellar) The first true artificial intelligences become possible, as computers are able to model synaptic networks.
+TL 11
+: (Early Stellar) The first true artificial intelligences become possible, as computers are able to model synaptic networks.
 
-TL 12: (Average Stellar) Weather control revolutionises terraforming and agriculture.
+TL 12
+: (Average Stellar) Weather control revolutionises terraforming and agriculture.
 
-TL 13: (Average Stellar) The battle dress appears on the battlefield in response to the new weapons.
+TL 13
+: (Average Stellar) The battle dress appears on the battlefield in response to the new weapons.
 
-TL 14: (Average Stellar) Fusion weapons become man-portable.
+TL 14
+: (Average Stellar) Fusion weapons become man-portable.
 
-TL 15: (High Stellar) Black globe generators suggest a new direction for defensive technologies, while the development of synthetic anagathics means that the human lifespan is now vastly increased.
+TL 15
+: (High Stellar) Black globe generators suggest a new direction for defensive technologies, while the development of synthetic anagathics means that the human lifespan is now vastly increased.
 
 Higher Technology Levels exist and may appear in other settings or be discovered by pioneering scientists.
 
@@ -56,17 +72,23 @@ Characteristics
 
 Every person and creature in Traveller has several characteristics that describe their base mental and physical potential.
 
-Strength (Str): A character’s physical strength, fitness and forcefulness.
+Strength (Str)
+: A character’s physical strength, fitness and forcefulness.
 
-Dexterity (Dex): Physical co-ordination and agility, reflexes.
+Dexterity (Dex)
+: Physical co-ordination and agility, reflexes.
 
-Endurance (End): A character’s ability to sustain damage, stamina and determination.
+Endurance (End)
+: A character’s ability to sustain damage, stamina and determination.
 
-Intelligence (Int): A character’s intellect and quickness of mind.
+Intelligence (Int)
+: A character’s intellect and quickness of mind.
 
-Education (Edu): A measure of a character’s learning and experience.
+Education (Edu)
+: A measure of a character’s learning and experience.
 
-Social Standing (Soc): A character’s place in society.
+Social Standing (Soc)
+: A character’s place in society.
 
 Skills
 ======
@@ -86,35 +108,51 @@ Before embarking on your careers, you get a number of background skills equal to
 
 Homeworld: Growing up on your homeworld gave you skills that depend on the planet’s nature. You can select any skill that matches your homeworld’s planetary description and trade codes. If you came from a planet already established, then consult those sources for the planet’s description.
 
-Agricultural: Animals 0
+Agricultural
+: Animals 0
 
-Asteroid: Zero-G 0
+Asteroid
+: Zero-G 0
 
-Desert: Survival 0
+Desert
+: Survival 0
 
-Fluid Oceans: Seafarer 0
+Fluid Oceans
+: Seafarer 0
 
-Garden: Animals 0
+Garden
+: Animals 0
 
-High Technology: Computers 0
+High Technology
+: Computers 0
 
-High Population: Streetwise 0
+High Population
+: Streetwise 0
 
-Ice-Capped: Vacc Suit 0
+Ice-Capped
+: Vacc Suit 0
 
-Industrial: Trade 0
+Industrial
+: Trade 0
 
-Low Technology: Survival 0
+Low Technology
+: Survival 0
 
-Poor: Animals 0
+Poor
+: Animals 0
 
-Rich: Carouse 0
+Rich
+: Carouse 0
 
-Water World: Seafarer 0
+Water World
+: Seafarer 0
 
-Vacuum: Vacc Suit 0
+Vacuum
+: Vacc Suit 0
 
-Education: A formal education gives you a basic level of competence in various sciences and academic disciplines. Any character may choose from the following list:
+### Education
+
+A formal education gives you a basic level of competence in various sciences and academic disciplines. Any character may choose from the following list:
 
 Admin 0, Advocate 0, Art 0, Carouse 0, Comms 0, Computer 0, Drive 0, Engineer 0, Language 0, Medic 0, Physical Science 0, Life Science 0, Social Science 0, Space Science 0, Trade 0.
 
@@ -132,19 +170,24 @@ Skills and Training: Each career has skill tables associated with it – Persona
 
 Skills can be listed with or without an associated level. If no rank is listed, then you gain that skill at Level 1 if you do not have it already, or increases its level by one if you are already trained in that field. If a rank is listed, then you gain the skill at that level as long as it is better than your current level in that skill.
 
-Basic Training: For your first career only, you get all the skills listed in the Service Skills table at Level 0 as your basic training. For any subsequent careers, you may pick any one skill listed in the Service Skills table at Level 0 as your basic training.
+Basic Training
+: For your first career only, you get all the skills listed in the Service Skills table at Level 0 as your basic training. For any subsequent careers, you may pick any one skill listed in the Service Skills table at Level 0 as your basic training.
 
-Survival: Each career has a survival roll. If you fail this roll, roll on the mishap table. This mishap is always enough to force you to leave the service. You lose the benefit roll for the current term only. A natural 2 is always a failure.
+Survival
+: Each career has a survival roll. If you fail this roll, roll on the mishap table. This mishap is always enough to force you to leave the service. You lose the benefit roll for the current term only. A natural 2 is always a failure.
 
-Events: If you are still in your career after resolving the survival roll, roll on the events table to see what interesting things befall you this term.
+Events
+: If you are still in your career after resolving the survival roll, roll on the events table to see what interesting things befall you this term.
 
-Commission: This only applies to the military careers of Army, Navy and Marines. A character who succeeds at a commission roll becomes a Rank 1 officer in that career, and uses the officer Rank table from then on. A character may attempt a commission roll once per term, and trying for commission is optional.
+Commission
+: This only applies to the military careers of Army, Navy and Marines. A character who succeeds at a commission roll becomes a Rank 1 officer in that career, and uses the officer Rank table from then on. A character may attempt a commission roll once per term, and trying for commission is optional.
 
 If you obtain a commission after having already advanced several ranks, you become a Rank 1 officer as normal but you may add your two final ranks together for the purposes of determining benefits and pensions.
 
 Some events give a bonus DM to advancement rolls, or give automatic advancement. You can apply these DMs to commission rolls also.
 
-Advancement: Each career has an advancement roll.
+Advancement
+: Each career has an advancement roll.
 
 If you make a successful Advancement roll, then you move to the next rank and gain an extra roll on any of the Skills and Training Tables for this career. You also get any benefits listed for your new rank. You may only attempt to advance once per term.
 
@@ -152,22 +195,27 @@ If your result is equal to or less than the number of terms you have spent in th
 
 If you roll a natural 12, then you must continue in this career.
 
-Ranks and Benefits: You start at Rank 0 in your career. Each time you succeed at an advancement check, you move onto the next Rank.
+Ranks and Benefits
+: You start at Rank 0 in your career. Each time you succeed at an advancement check, you move onto the next Rank.
 
 Some ranks have benefits associated with them, such as extra skills or more benefits. You gain these benefits as soon as you attain that rank.
 
-Mustering-Out Benefits: When you leave a career for any reason, you gain material benefits from that career. There are two tables – Cash and Benefits. You may only roll on the cash tables a maximum of three times, regardless of how many careers or benefit rolls you have. You get one benefit roll per full term served. Leaving due to a mishap means you lose the benefit roll for that term, but not previous full terms in that career.
+Mustering-Out Benefits
+: When you leave a career for any reason, you gain material benefits from that career. There are two tables – Cash and Benefits. You may only roll on the cash tables a maximum of three times, regardless of how many careers or benefit rolls you have. You get one benefit roll per full term served. Leaving due to a mishap means you lose the benefit roll for that term, but not previous full terms in that career.
 
 If you reached rank 1 or 2, you get an extra benefit roll when leaving that service. If you reached rank 3 or 4, you get two extra benefit rolls, and if you reached rank 5 or 6, you get three extra benefit rolls and may apply a +1 to rolls on the Benefits table that you gain from that career.
 
 Sample Career: Scout
 --------------------
 
-Enlistment: Int 5+ 
+Enlistment
+: Int 5+ 
 
-–1 DM for every previous career.
+-1 DM for every previous career.
 
-### Assignments: Choose one of the following:
+### Assignments
+
+Choose one of the following:
 
 > Courier
 >
@@ -175,7 +223,7 @@ Enlistment: Int 5+
 >
 > Exploration
 
-### Skills and Training:
+### Skills and Training
 
 | Roll | Personal Development | Service Skills      | Advanced Edu (Min 8) |
 |:----:|:--------------------:|:-------------------:|:--------------------:|
@@ -315,9 +363,11 @@ Ageing
 
 The effects of ageing begin when a character reaches 34 years of age. At the end of the fourth term, and at the end of every term thereafter, the character must roll 2d6 on the Ageing Table. Apply the character’s total number of terms as a negative Dice Modifier on this table.
 
-Ageing Crisis: If any characteristic is reduced to 0 by ageing, then the character suffers an ageing crisis. The character dies unless he can pay 1d6 x 10,000 credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms.
+Ageing Crisis
+: If any characteristic is reduced to 0 by ageing, then the character suffers an ageing crisis. The character dies unless he can pay 1d6 x 10,000 credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms.
 
-Anagathics: While using anagathic drugs, the character effectively does not age – add the number of terms since the character started taking anagathics as a positive Dice Modifier to rolls on the ageing table. If a character stops taking anagathics, then he must roll immediately on the ageing table to simulate the shock that comes from his system beginning to age again.
+Anagathics
+: While using anagathic drugs, the character effectively does not age – add the number of terms since the character started taking anagathics as a positive Dice Modifier to rolls on the ageing table. If a character stops taking anagathics, then he must roll immediately on the ageing table to simulate the shock that comes from his system beginning to age again.
 
 The risk of trying to obtain a reliable supply and the disruption to the character’s biochemistry means the character must make a second Survival check if he passes his first Survival check in a term. If either check is failed, the character suffers a mishap and is ejected from the career.
 
@@ -347,9 +397,11 @@ Characters that are wounded in combat or accidents during character creation mus
 
 -----------------------------------------------------------
 
-Injury Crisis: If any characteristic is reduced to 0, then the character suffers an injury crisis. The character dies unless he can pay 1d6 x 10,000 credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms.
+Injury Crisis
+: If any characteristic is reduced to 0, then the character suffers an injury crisis. The character dies unless he can pay 1d6 x 10,000 credits for medical care, which will bring any characteristics back up to 1. The character automatically fails any Qualification checks from now on – he must either continue in the career he is in or become a Drifter if he wishes to take any more terms.
 
-Medical Care: If your character has been injured, then medical care may be able to undo the effects of damage. The restoration of a lost characteristic costs 5,000 Credits per point.
+Medical Care
+: If your character has been injured, then medical care may be able to undo the effects of damage. The restoration of a lost characteristic costs 5,000 Credits per point.
 
 If your character was injured in the service of a patron or organisation, then a portion of his medical care may be paid for by that patron. Roll 2d6 on the table below, adding your Rank as a DM. The result is how much of his medical care is paid for by his employer.
 
@@ -383,21 +435,29 @@ Skill Packages
 
 As a group, select one of the following skill packages.
 
-Traveller Skill Package: Pilot (any) 1, Sensors 1, Comms 1, Gunner (any) 1, Gun Combat (any) 1, Persuade 1, Stealth 1, Medic 1.
+Traveller Skill Package
+: Pilot (any) 1, Sensors 1, Comms 1, Gunner (any) 1, Gun Combat (any) 1, Persuade 1, Stealth 1, Medic 1.
 
-Mercenary Skill Package: Sensors 1, Comms 1, Medic 1, Leadership 1, Heavy Weapons (any) 1, Gun Combat (any) 1, Gun Combat (any) 1, Stealth 1.
+Mercenary Skill Package
+: Sensors 1, Comms 1, Medic 1, Leadership 1, Heavy Weapons (any) 1, Gun Combat (any) 1, Gun Combat (any) 1, Stealth 1.
 
-Trader Skill Package: Pilot (any) 1, Sensors 1, Medic 1, Streetwise 1, Broker 1, Advocate 1, Diplomat 1, Astrogation 1.
+Trader Skill Package 
+: Pilot (any) 1, Sensors 1, Medic 1, Streetwise 1, Broker 1, Advocate 1, Diplomat 1, Astrogation 1.
 
-Starship Skills Package: Pilot (any) 1, Gunner (any) 1, Engineer (any) 1, Mechanic 1, Sensors 1, Medic 1, Comms 1, Astrogation 1.
+Starship Skills Package
+: Pilot (any) 1, Gunner (any) 1, Engineer (any) 1, Mechanic 1, Sensors 1, Medic 1, Comms 1, Astrogation 1.
 
-Explorer Skills Package: Pilot (any) 1, Astrogation 1, Sensors 1, Survival 1, Recon 1, Gun Combat (any) 1, Stealth 1, Medic 1
+Explorer Skills Package
+: Pilot (any) 1, Astrogation 1, Sensors 1, Survival 1, Recon 1, Gun Combat (any) 1, Stealth 1, Medic 1
 
-Diplomat Skill Package: Advocate 1, Diplomat 1, Persuade 1, Stealth 1, Streetwise 1, Deception 1, Computers 1, Comms 1.
+Diplomat Skill Package
+: Advocate 1, Diplomat 1, Persuade 1, Stealth 1, Streetwise 1, Deception 1, Computers 1, Comms 1.
 
-Investigator Skill Package: Advocate 1, Admin 1, Investigate 1, Persuade 1, Stealth 1, Streetwise 1, Computers 1, Sensors 1, Gun Combat (any) 1
+Investigator Skill Package
+: Advocate 1, Admin 1, Investigate 1, Persuade 1, Stealth 1, Streetwise 1, Computers 1, Sensors 1, Gun Combat (any) 1
 
-Criminal Skill Package: Pilot (any) 1, Sensors 1, Stealth 1, Deception 1, Persuade 1, Streetwise 1, Broker 1, Medic 1.
+Criminal Skill Package
+: Pilot (any) 1, Sensors 1, Stealth 1, Deception 1, Persuade 1, Streetwise 1, Broker 1, Medic 1.
 
 Aliens
 ======
