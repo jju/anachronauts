@@ -1,64 +1,18 @@
-RTT Worldgen {#firstHeading .firstHeading lang="en"}
+RTT Worldgen
 ============
-
-<div id="bodyContent" class="mw-body-content">
-
-<div id="siteSub">
 
 From RPGnetWiki
 
-</div>
+The RTT Complicated Star System Generator is a detailed, but not *too* detailed, random star system and world generation system for Mongoose Traveller. It attempts to walk that fine line between realistic (as based on current astronomical and planetological research) and easy to use. Drawn from a number of sources, including the core rules, *GURPS Space* (for 4th edition), *GURPS Traveller: First In*, various idea seeds on the [Traveller Mailing List](http://traveller.wikia.com/wiki/Traveller_Mailing_List) and [Citizens of the Imperium fora](http://www.travellerrpg.com/CotI/Discuss/), and the [Arc Builder Planetary Classification List](http://arcbuilder.home.bresnan.net/PCLMaster.html).
 
-<div id="contentSub">
+This is a "bottom up" system, where you start with the primary star and work through all the planetary orbits. However, a lot of the process has been greatly simplified and fudged, mainly so you don't have to go crazy calculating the molecular weight of the atmosphere and the effects of axial tilt, but also to make it easier to update the system when new scientific discoveries make it outdated. The end results are all in the conventional UPP format, with the addition of a single new rating, **Biosphere**, to describe the complexity of life on the world.
 
-</div>
-
-<div id="jump-to-nav" class="mw-jump">
-
-Jump to: [navigation](#mw-head), [search](#p-search)
-
-</div>
-
-<div id="mw-content-text" class="mw-content-ltr" lang="en" dir="ltr">
-
-The RTT Complicated Star System Generator is a detailed, but not *too*
-detailed, random star system and world generation system for Mongoose
-Traveller. It attempts to walk that fine line between realistic (as
-based on current astronomical and planetological research) and easy to
-use. Drawn from a number of sources, including the core rules, *GURPS
-Space* (for 4th edition), *GURPS Traveller: First In*, various idea
-seeds on the [Traveller Mailing
-List](http://traveller.wikia.com/wiki/Traveller_Mailing_List){.external
-.text} and [Citizens of the Imperium
-fora](http://www.travellerrpg.com/CotI/Discuss/){.external .text}, and
-the [Arc Builder Planetary Classification
-List](http://arcbuilder.home.bresnan.net/PCLMaster.html){.external
-.text}.
-
-This is a "bottom up" system, where you start with the primary star and
-work through all the planetary orbits. However, a lot of the process has
-been greatly simplified and fudged, mainly so you don't have to go crazy
-calculating the molecular weight of the atmosphere and the effects of
-axial tilt, but also to make it easier to update the system when new
-scientific discoveries make it outdated. The end results are all in the
-conventional UPP format, with the addition of a single new rating,
-**Biosphere**, to describe the complexity of life on the world.
-
-I've made the assumption that minor bodies aren't worth mentioning.
-Assume all systems have a Kuiper belt and Oort cloud, that most Jovians
-will have their Trojans and Greeks, and that pretty much any planet at
-all has a number of minor satellites, meteor clouds, etc. Space is big.
+I've made the assumption that minor bodies aren't worth mentioning. Assume all systems have a Kuiper belt and Oort cloud, that most Jovians will have their Trojans and Greeks, and that pretty much any planet at all has a number of minor satellites, meteor clouds, etc. Space is big.
 
 – Shadowjack
 
-<div id="toc" class="toc">
-
-<div id="toctitle">
-
 Contents
 --------
-
-</div>
 
 -   [<span class="tocnumber">1</span> <span class="toctext">To Do
     List</span>](#To_Do_List)
@@ -221,11 +175,8 @@ Contents
 
 </div>
 
-<span id="To_Do_List" class="mw-headline">To Do List</span><span class="mw-editsection"><span class="mw-editsection-bracket">\[</span>[edit](/index.php?title=RTT_Worldgen&action=edit&section=1 "Edit section: To Do List")<span class="mw-editsection-bracket">\]</span></span>
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Special Features, internal links for dice tables, descriptive links for
-planetary and stellar classes, nomenclature/layout sheet
+Special Features, internal links for dice tables, descriptive links for planetary and stellar classes, nomenclature/layout sheet
 
 A: B-cdef-ghjk-Lm N N N P
 
@@ -250,33 +201,20 @@ Playtesting Notes:
 
 19 June 2008: Improved population rules. Needs testing.
 
-9 June 2008: Still working on the population rules. A high stellar
-society like the Imperium turns out a *lot* of small outposts, which is
-mildly surprising, but does seem reasonable. Need a more elegant
-approach to terraforming; maybe this will work…
+9 June 2008: Still working on the population rules. A high stellar society like the Imperium turns out a *lot* of small outposts, which is mildly surprising, but does seem reasonable. Need a more elegant approach to terraforming; maybe this will work…
 
-Gov. and Law codes seem to work, but definitely need to tweak the
-Industrial Base generation. Some tweaking to the base rules.
+Gov. and Law codes seem to work, but definitely need to tweak the Industrial Base generation. Some tweaking to the base rules.
 
-6 June 2008: The tables seem to turn out rather small planetary systems,
-especially for the ubiquitous red dwarfs, but I'm not sure that's a bug;
-if anything, it makes it easier to cope. And considering that we still
-don't know how common planets *really* are in the universe; under these
-rules, the Sol system is neither rare nor typical, which works for me.
-If you want more planets, try applying DM +1 to the three orbit rolls.
-Microscopic life is fairly common and macroscopic life less so, which
-seems a reasonable assumption for Traveller, and there look to be plenty
-of quiet lifeless worlds suitable for terraforming.
+6 June 2008: The tables seem to turn out rather small planetary systems, especially for the ubiquitous red dwarfs, but I'm not sure that's a bug; if anything, it makes it easier to cope. And considering that we still don't know how common planets *really* are in the universe; under these rules, the Sol system is neither rare nor typical, which works for me. If you want more planets, try applying DM +1 to the three orbit rolls. Microscopic life is fairly common and macroscopic life less so, which seems a reasonable assumption for Traveller, and there look to be plenty of quiet lifeless worlds suitable for terraforming.
 
-<span id="Basic_Star_Placement" class="mw-headline">Basic Star Placement</span><span class="mw-editsection"><span class="mw-editsection-bracket">\[</span>[edit](/index.php?title=RTT_Worldgen&action=edit&section=2 "Edit section: Basic Star Placement")<span class="mw-editsection-bracket">\]</span></span>
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Basic Star Placement
+====================
 
 Any hex has a 50% chance of having a brown dwarf (class L) somewhere.
 
 Any hex has a 50% chance of having a star system somewhere.
 
-A hex can contain both, drifting far apart from each other. For either
-kind of system, follow the procedure below.
+A hex can contain both, drifting far apart from each other. For either kind of system, follow the procedure below.
 
 <span id="Star_System_Generation" class="mw-headline">Star System Generation</span><span class="mw-editsection"><span class="mw-editsection-bracket">\[</span>[edit](/index.php?title=RTT_Worldgen&action=edit&section=3 "Edit section: Star System Generation")<span class="mw-editsection-bracket">\]</span></span>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
