@@ -45,3 +45,23 @@ In this time, as in many, it was slightly unclear what anyone wanted. Humanity w
 People wanted places to live and let live without the notion of FTL biological cousins bursting into a star system and raining rocks on your world. As the expansion and genocide began to cool down a sober second thought kind of organization began to arise. It took a long time but eventually, using the quantum entanglement communicators something approaching an interstellar civilization was established. It was mostly a loose federation, and left the most rapacious servitude of the higherdimensional beasts behind it.
 
 The core worlds maturity truly began with the ætheric tunnel. Now people could go through the void at FTL speeds without needing to rely on Ætheric navigators and pilots. FTL could be systematized, and it connected systems. The expansion of this network continues today into Sector EDG.
+
+## STL Travel
+
+Slower than light travel (STL) remains the primary means of transportation within a star system (and beyond for some). This is not just because most people do not travel between stars, though that is important. Seedphase humans tend to be in places they want to be. Meatsack humans, despite their rapacious nature when they do travel the stars are still more suited to planetary environments. It is actually a weird thing to travel the stars, and is seen as bizarrely tainted by the many entities residing in the universe.
+
+Within a system there are all sorts of politics and scientific frontiers to deal with. While yes, many of them will be similar to ones happening in different parts of the galaxy that doesn't make them less meaningful to the people dealing with them.
+
+There is also a political message to be made by eschewing FTL in any form. Because it has been used as a tool of colonization and oppression, there are many, especially those who are or sympathize with Seedphase humanity, who refuse to use it. There are also religious reasons not to traverse the æther, as it does seem to require trafficking with powers that are fundamentally opposed to rational thinking.
+
+## Æ-Drive
+
+The Æther-drive is a bit of a misnomer. Entering ætheric space doesn't require a drive per se. It is about hooking into the flows and currents that exist in this other world. It doesn't require precise calculations as much as perception of hidden currents. In much the same way a kite-flyer looks at airflows differently than a millipede.
+
+There are a number of versions of Æ-drives. 
+
+* There are biological inhabitants of the universe that also traverse ætherspace. It can be possible to hitch a ride with one of them, providing you can persuade one to take you and can maintain life support (nonbiologicals tend not to do this, but there's nothing preventing it).
+* The most common and oldest are Æ-Hooks, which catch into the appropriate current. This requires a biological on board to perceive (and many seedphase would add "believe in") the currents. These hooks don't require any special fuel expenditure and limit the type of manoeuvring that's possible in ætherspace.
+* Æ-Drives have been developed to simply enter ætherspace and exist there navigating it on the fly, the way one would in physics-space (just faster). There is a greater fuel expense to power one's way through the æther and it can be frustratingly exotic if one doesn't have allies native to the æther. One doesn't *need* a biological navigator and can bruteforce your way through ætherspace in this manner, but most non-psi-adept beings tend to break like eggs when they do this.
+* The Æ-Tunnel is a newer CoreWorlds technology. It systematizes transport between two quantum beacons. This no longer requires a biological navigator on board, but limits the embarkation and disembarkation points to quantum beacons. The CoreWorlds monopolize & heavily defend those points in systems where they have established tunnels and regularly escort vessels in ætherspace. Combining Æ-Drives and Æ-Tunnels is possible, though it tends to damage the tunnelling effect. Another reason for the patrolling by the TransportPowers.
+
