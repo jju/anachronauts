@@ -10,13 +10,13 @@ There are different forms of æther travel, all of which get around the lightspe
 
 ## History
 
-At some point thousands of years ago humanity had a pretty good handle on how to transform fundamental building blocks of matter into useful forms. The unbreakable lightspeed barrier and the time it would take and the radiation and just general fuckery of dealing with interstellar relativistic travel meant that sending fleshy sacks of carbon to other stars for the possibility of setting human flesh on a new frontier made that a non-starter (of course there were wackos, willing to load up colony ships filled with meatbags in freezers to give it a shot).
+At some point a Terasecond or so ago humanity had a pretty good handle on how to transform fundamental building blocks of matter into useful forms. The unbreakable lightspeed barrier and the time it would take and the radiation and just general fuckery of dealing with interstellar relativistic travel meant that sending fleshy sacks of carbon to other stars for the possibility of setting human flesh on a new frontier made that a non-starter (of course there were wackos, willing to load up colony ships filled with meatbags in freezers to give it a shot).
 
 ### Seedphase
 
 What made more sense to the people of that time (many of whom were spending more time in virtual spaces anyway) was to transmit information on how to reassemble a certain level of technology and biology and just put it out there. It would be slow in comparison to hopping onto a plane and getting somewhere, but the information would be out there.
 
-Now, the technology wasn't quite at the point where you could transmit a code at an asteroid and it would spontaneously turn into a human factory, so they sent very small satellites, little seeds at sublight speeds and they sent them everywhere. These seeds would be able to take the information they were broadcasting and reassemble something approximating life in the places it got to.
+Now, the technology wasn't at the point where you could transmit a code at an asteroid and it would spontaneously turn into a human factory, so they sent very small satellites, little seeds at sublight speeds and they sent them everywhere. These seeds would be able to take the information they were broadcasting and reassemble something approximating life in the places it got to.
 
 The seeds were small and ran programs with whole virtual societies running on them. Each one debated as they approached stars about how to deploy their resources and most decided to set up in systems. They had plans for how to create entities and societies and they were able to harvest information being sent along more quickly from home. Decisions were made and vast chunks of the galaxy was seeded.
 
@@ -24,9 +24,9 @@ Because of the lightspeed barrier there was little travel between these seeded s
 
 ### The cult of flesh
 
-The cult of flesh grew up through communication between a number of worlds that had relatively carbon-friendly environments and who had put their factories to work creating biological beings, usually in the shape of the human ancestors. This newly re-biologized version of humanity was very interested in many things, but possibly the most momentous was the notion of other biologies.
+The cult of flesh grew up through communication between a number of worlds that had relatively carbon-friendly environments and who had put their factories to work creating biological beings, usually in the shape of the humanoid ancestors. This newly re-biologized version of humanity was very interested in many things, but possibly the most momentous was the notion of contact with other biologies.
 
-Through communion with other biological entities that inhabited dimensions unknown to the seed civilization, the higher dimensions were opened up breaking a whole host of technological barriers. One of these dimensions was ætherspace.
+Through communion with other quasi-biological entities that inhabited dimensions unknown to the seed civilization, the higher dimensions were opened up breaking a whole host of technological barriers. One of these dimensions was ætherspace.
 
 Through the æther, faster than light travel was now possible. The cult of flesh retook the ancient name of humanity and set out to conquer the stars.
 
@@ -44,7 +44,7 @@ In this time, as in many, it was slightly unclear what anyone wanted. Humanity w
 
 People wanted places to live and let live without the notion of FTL biological cousins bursting into a star system and raining rocks on your world. As the expansion and genocide began to cool down a sober second thought kind of organization began to arise. It took a long time but eventually, using the quantum entanglement communicators something approaching an interstellar civilization was established. It was mostly a loose federation, and left the most rapacious servitude of the higherdimensional beasts behind it.
 
-The core worlds maturity truly began with the ætheric tunnel. Now people could go through the void at FTL speeds without needing to rely on Ætheric navigators and pilots. FTL could be systematized, and it connected systems. The expansion of this network continues today into Sector EDG.
+The core worlds maturity truly began with the ætheric tunnel near the end of the 11th Terasecond. Now people could go through the void at FTL speeds without needing to rely on Ætheric navigators and pilots. FTL could be systematized, and it connected systems. The expansion of this network continues today into Sector EDG.
 
 ## STL Travel
 
@@ -62,6 +62,19 @@ There are a number of versions of Æ-drives.
 
 * There are biological inhabitants of the universe that also traverse ætherspace. It can be possible to hitch a ride with one of them, providing you can persuade one to take you and can maintain life support (nonbiologicals tend not to do this, but there's nothing preventing it).
 * The most common and oldest are Æ-Hooks, which catch into the appropriate current. This requires a biological on board to perceive (and many seedphase would add "believe in") the currents. These hooks don't require any special fuel expenditure and limit the type of manoeuvring that's possible in ætherspace.
-* Æ-Drives have been developed to simply enter ætherspace and exist there navigating it on the fly, the way one would in physics-space (just faster). There is a greater fuel expense to power one's way through the æther and it can be frustratingly exotic if one doesn't have allies native to the æther. One doesn't *need* a biological navigator and can bruteforce your way through ætherspace in this manner, but most non-psi-adept beings tend to break like eggs when they do this.
+* Æ-Drives have been developed to simply enter ætherspace and exist there navigating it on the fly, the way one would in physics-space (just faster). There is a greater fuel expense to power one's way through the æther and it can be frustratingly exotic if one doesn't have allies native to the æther. One doesn't *need* a biological navigator and can bruteforce your way through ætherspace in this manner, but most non-psi-adept beings tend to break like eggs when they do this. For resource-rich seedphase humanity this can be the preferred method of FTL transporting ideas. As of 1105 this is still somewhat risqué for most seedphase.
 * The Æ-Tunnel is a newer CoreWorlds technology. It systematizes transport between two quantum beacons. This no longer requires a biological navigator on board, but limits the embarkation and disembarkation points to quantum beacons. The CoreWorlds monopolize & heavily defend those points in systems where they have established tunnels and regularly escort vessels in ætherspace. Combining Æ-Drives and Æ-Tunnels is possible, though it tends to damage the tunnelling effect. Another reason for the patrolling by the TransportPowers.
 
+## TransportPowers
+
+The TransportPowers are the forces within the CoreWorlds that have been charged with maintaining the travel between stars. They have invested a galactically huge amount of resources into creating the Æ-tunnelling network (and currently into extending the ranges, so fewer jumps are needed). This bureaucratization of the fact that meatsack humanity is a cult in thrall to higher-dimensional beings that, quite frankly, couldn't give a shit about us going from star to star.
+
+Ostensibly, the purpose of the TransportPowers is to secure trade amongst the stars. This holds up in the CoreWorlds because the TransportPowers aren't the kind of institution that most meatsack humans care about. There are of course propaganda tales of The Fleet's famous ships like the TPS Herculean, but those are buried in the rest of life for planetary-bound meatsacks. The idea of trading amongst the stars for resources (that could be produced practically anywhere with very old Terasecond-scale and traditional technologies) is absurd in any but a religious framework.
+
+Seedphase humanity is very very very aware of the Transport Powers. As far as the general Seed consensus goes, the TransportPowers is a prettied up version of the silicon-thirsty imperialists that destroyed so many seeds a few Gigaseconds ago. Yes there were backups but that basically means the completely foreign means the CoreWorlds used have been experienced by the seeds. Seeds are very very wary of the expansion being driven by the Quantum Tunnelling effect. Because they generally eschew FTL communication for anything beyond the most dire situations (and the mere destruction of a seed isn't usually that dire, because of the backups clause) there isn't a huge amount of care for what is going on so far away.
+
+The TransportPowers maintain a database of systems based on seedphase reports and meatsack reconnaisance (sometimes performed in force). After the rise of the cult of flesh a number of seedcivs beyond the TP's immediate purview began falsifying data, so the UPPs residing in the CoreWorlds systems can be contradictory. Selah.
+
+The TransportPowers are dedicated to projecting an image of their Fleet's role being one of calm protection and scientific exploration. News of newly discovered life forms are always widely distributed and there is much less (though one can't say entirely none) rampant terraforming of worlds where life could thrive. The age of flesh was, frankly a disgusting time for this (and is responsible for the habitability of the majority of the CoreWorlds).
+
+Dealing with aliens is on the galactic scale not part of the TPs remit. A Department of Ætherial Affairs is traditional in CoreWorlds-aligned polities. The DÆA had more influence in the Æ-Hooks-dominated times and are looking to regain that power now that the TPs are moving towards a more materialist approach in dealing with ætherspace. This plays into the hands of the Seedcivs, they say giving untold power to mere machines. It gets weird.
