@@ -78,3 +78,51 @@ The TransportPowers maintain a database of systems based on seedphase reports an
 The TransportPowers are dedicated to projecting an image of their Fleet's role being one of calm protection and scientific exploration. News of newly discovered life forms are always widely distributed and there is much less (though one can't say entirely none) rampant terraforming of worlds where life could thrive. The age of flesh was, frankly a disgusting time for this (and is responsible for the habitability of the majority of the CoreWorlds).
 
 Dealing with aliens is on the galactic scale not part of the TPs remit. A Department of Ætherial Affairs is traditional in CoreWorlds-aligned polities. The DÆA had more influence in the Æ-Hooks-dominated times and are looking to regain that power now that the TPs are moving towards a more materialist approach in dealing with ætherspace. This plays into the hands of the Seedcivs, they say giving untold power to mere machines. It gets weird.
+
+## game mechanics
+
+Space travel in anachronauts primarily uses the rules found in the SRD. This section will be detailing the exceptions.
+
+Most notably, there is no "Grav" technology in this universe. Generating gravity is done mostly by spin or thrust. Consequently spaceships, ætherships are not designed along star-trek kinds of lines. Shuttles are more important for interacting with stmospheres. Space elevators/beanstalks are more common than in the traditional Traveller universe.
+
+### Æ-hooks
+
+Æther-hooks take up tonnage and cost in a craft equal to an SRD J-Drive. If you are retrofitting statistics form Traveller ships simply convert the fuel requirements to the power plant, which functions in the same manner.
+
+One of the important things about ætherhooks is that they 
+
+Astrogation and having an accomplished Astrogator on board is very important when using æ-hooks.
+
+1. Plot course. Roll Astrogation (-4,-hexdistanceDM[^1: Æ-Hooks can only travel the hex distance of their rating safely],ksec) 
+   On success, the Effect replaces 1 of the d6 in the TravelTime roll. 
+   On failure, a reroll is possible (-2DM) but the Effect of this failed roll is added to the d6 in the TravelTime roll.
+2. Enter ætherspace. Roll Physics(ætherspace) or Pilot (+2 if Astrogator on board/-6 if not,-8 if in Low Orbit or closer of a massive body,dasec)
+   On success, the ship is in ætherspace.
+   On failure, reroll is possible (-2DM)[^2: you can turn it off and turn it on again to reset the reroll penalties with a +4 Engineer (hasec) roll].
+3. Determine duration of voyage in 10ksec. TravelTime roll: 2d6 +1d6/hex travelled.
+   Using a higher-powered æ-drive than necessary for the hexes one is travelling reduces the TravelTime by 10ksec per point of excess.[^3: So a æ-3 hook ship travelling 1 hex away would have a TravelTime of 3d6-2 ksec.]
+4. Exit æ-space. Roll Pilot (+2 if Astrogator aboard/-6 if not,sec).
+   On success, the ship is now safely in p-space within medium range of the beacon and at least short range from any other vessel/obstacle. If this is impossible to achieve, see failure.
+   On failure, reroll is possible (-2DM)[^4: No Engineer reset roll allowed.]. If failure continues a new Astrogation roll is required see rerolls in step 1.
+
+Being stuck in æ-space is no good.
+
+### Æ-drives
+
+Æther-drives take up tonnage in a craft equal to an SRD J-Drive. They also have exotic fuel costs, so unlike æ-hooks they use the fuel compartment allocations. The cost of an æ-drive is much higher than the equivalent æhooks.
+
+Astrogation and having an accomplished Astrogator on board is less important when using an æ-drives.
+
+1. Plot course. Roll Astrogation (-4,-hexdistanceDM[^1: Æ-Drives can only travel the hex distance of their rating safely],ksec) 
+   On success, the Effect replaces 1 of the d6 in the TravelTime roll. 
+   On failure, a reroll is possible (-2DM) but the Effect of this failed roll is added to the d6 in the TravelTime roll.
+2. Enter ætherspace. Roll Engineer(Æ-Drive) or Pilot (+0,-8 if in Low Orbit or closer of a massive body,dasec)
+   On success, the ship is in ætherspace.
+   On failure, reroll is possible (-2DM)[^2: you can turn it off and turn it on again to reset the reroll penalties with a +4 Engineer (hasec) roll].
+3. Determine duration of voyage in 10ksec. TravelTime roll: 2d6 +1d6/hex travelled.
+   Using a higher-powered æ-drive than necessary for the hexes one is travelling reduces the TravelTime by 1d6 rolled per point of excess.[^3: So a æ-3 hook ship travelling 1 hex away would have a 1d6 ksec TravelTime.]
+4. Exit æ-space. Roll Pilot (+0,sec).
+   On success, the ship is now safely in p-space within medium range of the beacon and at least short range from any other vessel/obstacle. If this is impossible to achieve, see failure.
+   On failure, reroll is possible (-2DM)[^4: No Engineer reset roll allowed.]. If failure continues a new Astrogation roll is required see rerolls in step 1.
+
+
