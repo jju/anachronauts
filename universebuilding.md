@@ -137,5 +137,5 @@ Quantum Tunnels
    Replace the highest die with a 5 (from step 1)
 4. Exit æ-space. Roll Pilot (+4,sec).
    On success, the ship is now safely in p-space within short range of the beacon and at least short range from any other vessel/obstacle. If this is impossible to achieve, see failure.
-   On failure, reroll is possible (-2DM cumulative)[^4: No Engineer reset roll allowed.]. If this gets impossible, roll Astrogation (+2 if Astrogator on board/-6 if not,ksec). The Effect of this roll is added to the TravelTime roll, after which there's another roll to exit ætherspace.
+   On failure, reroll is possible (-2DM cumulative)[^4: No Engineer reset roll allowed.]. If this gets impossible, roll Astrogation (+2 if Astrogator on board/-6 if not,ksec). The Effect of this roll is added to the TravelTime roll, after which there's another chance for a roll to exit ætherspace.
 
