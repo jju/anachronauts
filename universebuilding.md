@@ -98,7 +98,7 @@ Astrogation and having an accomplished Astrogator on board is very important whe
    On failure, a reroll is possible (-2DM) but the Effect of this failed roll is added to the d6 in the TravelTime roll.
 2. Enter ætherspace. Roll Physics(ætherspace) or Pilot (+2 if Astrogator on board/-6 if not,-8 if in Low Orbit or closer of a massive body,dasec)
    On success, the ship is in ætherspace.
-   On failure, reroll is possible (-2DM)[^2: you can turn it off and turn it on again to reset the reroll penalties with a +4 Engineer (hasec) roll].
+   On failure, reroll is possible (-2DM cumulative)[^2: you can turn it off and turn it on again to reset the reroll penalties with a +4 Engineer (hasec) roll].
 3. Determine duration of voyage in 10ksec. TravelTime roll: 2d6 +1d6/hex travelled.
    Using a higher-powered æ-drive than necessary for the hexes one is travelling reduces the TravelTime by 10ksec per point of excess.[^3: So a æ-3 hook ship travelling 1 hex away would have a TravelTime of 3d6-2 ksec.]
 4. Exit æ-space. Roll Pilot (+2 if Astrogator aboard/-6 if not,sec).
@@ -125,4 +125,17 @@ Astrogation and having an accomplished Astrogator on board is less important whe
    On success, the ship is now safely in p-space within medium range of the beacon and at least short range from any other vessel/obstacle. If this is impossible to achieve, see failure.
    On failure, reroll is possible (-2DM)[^4: No Engineer reset roll allowed.]. If failure continues a new Astrogation roll is required see rerolls in step 1.
 
+## Quantum Tunnels
+
+Quantum Tunnels
+
+1. Plot course. This is done by the Tunnellers and the Effect is always 5. This Effect 5 replaces the highest die in the TravelTime roll.
+2. Enter ætherspace. Roll Pilot (+4,dasec)
+   On success, the ship is in ætherspace.
+   On failure, reroll is possible (-2DM)[^2: you can turn it off and turn it on again to reset the reroll penalties with a +4 Engineer (hsec) roll].
+3. Determine duration of voyage in 10ksec. TravelTime roll: 2d6 +1d6/hex travelled.
+   Replace the highest die with a 5 (from step 1)
+4. Exit æ-space. Roll Pilot (+4,sec).
+   On success, the ship is now safely in p-space within short range of the beacon and at least short range from any other vessel/obstacle. If this is impossible to achieve, see failure.
+   On failure, reroll is possible (-2DM cumulative)[^4: No Engineer reset roll allowed.]. If this gets impossible, roll Astrogation (+2 if Astrogator on board/-6 if not,ksec). The Effect of this roll is added to the TravelTime roll, after which there's another roll to exit ætherspace.
 
