@@ -14,7 +14,23 @@ Target Numbers
 Dice Modifier (DM)
 : A number to be applied to a die roll before it is used. Dice Modifiers are preceded by a sign, which indicates if the number is to be added to or subtracted from the roll. For example, a Dice Modifier of -2 indicates that two is to be subtracted from the roll; a Die Modifier of +4 indicates that four is to be added to the roll.
 
+See Tasks for more on DMs
+
+Difficulty | DM
+:----------|:--:
+Simple | +6
+Easy | +4
+Routine | +2
+Challenging | +0
+Difficult | -2
+Very Difficult | -4
+Formidable | -6
+
 Unless otherwise noted a modified roll of 8+ is a *costly* success, and a modified roll of 12+ is a *flawless* success.
+
+On a costly success use the highest die for the Timing and the lowest die for the Effect.
+
+On a flawless success use the highest die for the Effect and the lowest die for the Timing.
 
 Technology Levels
 =================
