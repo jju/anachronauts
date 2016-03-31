@@ -16,7 +16,7 @@ Dice Modifier (DM)
 
 Unless otherwise noted a modified roll of 8+ is a *costly* success, and a modified roll of 12+ is a *flawless* success.
 
-*Technology Levels*
+Technology Levels
 =================
 
 Technology Levels measure the scientific-industrial capacity of a world and the complexity and effectiveness of a piece of equipment.
@@ -43,28 +43,28 @@ TL 6
 : (Industrial) TL 6 brings the development of fission power and microchip computing.
 
 TL 7
-: (Pre-Stellar) A pre-stellar society can reach orbit reliably and has telecommunications satellites.
+: (Modern) A pre-stellar society can reach orbit reliably and has telecommunications satellites.
 
 TL 8
-: (Pre-Stellar) At TL 8, it is possible to reach other worlds in the same system, although terraforming or full colonisation are not within the culture’s capacity.
+: (Late Modern) At TL 8, it is possible to reach other worlds in the same system, although terraforming or full colonisation are not within the culture’s capacity. Computers, lasers, miniaturization and mature nuclear fission technology all exists.
 
 TL 9
-: (Information) The defining element of TL 9 is the development of vast information networks on a planetary scale.
+: (Information) The defining element of TL 9 is the development of vast information networks on a planetary scale. 
 
 TL 10
-: (New Human) With the advent of cryogenics and mechanical/cyborg assists, lifespans are extended virtually and nearby systems are opened up. Aetherhooks can be created with the proper materials.
+: (Microscience) With the advent of cryogenics and mechanical/cyborg assists, lifespans are extended virtually and nearby systems are opened up. Aetherhooks can be created with the proper materials. AI is an actual thing, fusion technology is coming into being as are more useful robots.
 
 TL 11
-: (Transhuman) The first true artificial intelligences become possible, as computers are able to model synaptic networks.
+: (Transhuman) The first sapient artificial intelligences become possible, as computers are able to model synaptic networks. Fusion technology is maturing, antimatter is being theoretically understood.
 
 TL 12
 : (Geoengineering) Weather control revolutionises terraforming and agriculture.
 
 TL 13
-: (Seedphase) Matter transmogrification allows for massive rewriting of physical reality.
+: (Seedphase) Matter transmogrification nanotechnology is mature and allows for massive rewriting of physical reality.
 
 TL 14
-: (Stellar) Fusion weapons and vast destructive arrays available.
+: (Cult of Flesh) Fusion weapons and vast destructive arrays available.
 
 TL 15
 : (High Stellar) Aetherdrives developed, bringing FTL to those who don't want to make pacts with dark powers.
@@ -128,7 +128,7 @@ Fluid Oceans
 : Seafarer 0
 
 Garden
-: *Animals 0*
+: **Animals 0**
 
 High Technology
 : Computers 0
@@ -223,9 +223,8 @@ If you reached rank 1 or 2, you get an extra benefit roll when leaving that serv
 
 #### Enlistment
 
-Int 5+ 
-
--1 DM for every previous career.
+- Int (+3,10MSec)
+- -1 DM for every previous career.
 
 #### Assignments
 
