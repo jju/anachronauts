@@ -480,6 +480,445 @@ Investigator Skill Package
 Criminal Skill Package
 : Pilot (any) 1, Sensors 1, Stealth 1, Deception 1, Persuade 1, Streetwise 1, Broker 1, Medic 1.
 
+  
+
+
+Creating a Navy Character
+-------------------------
+
+### Naval College 
+
+If a character attends naval college, he spends four years there preparing for his career in the navy. To enter naval college, the character must pass the Entry roll. If successful, he may choose a course and attempt to pass the course in order to gain its benefits. A failed course after gaining entry means the character flunks out and spends his first term in the drifter career.
+
+No character may attempt to enter Naval College after his first term, the Navy has plenty of potential recruits eager to fill their ranks and never wish to be seen as the second choice for any new officer recruit.
+
+Any graduate from a Naval College will be commissioned and immediately start his first term at rank o1. A successful education at Naval College will leave the new officer with a full set of basic skills, some training in his chosen specialist field and, of course, his commission as an officer. He will not have an Event or Mishap, losing any benefits he may have gained. In addition he will not gain a mustering out benefit for the term he spent in college.
+
+A graduate will not immediately be placed within his specialised service, instead serving in the Crewman roll of the navy of his choice (it is fairly uncommon, but not unknown, for promising graduates to opt for a naval career in their own planetary navy rather than the more prestigious Imperial Navy, for example).
+
+#### Support College
+
+Admission
+: Edu (+1,10Msec)
+
+Success
+: Int (+0,0.1Gsec)
+
+Honours
+: Edu (-2(or flawless success on Success roll),Gsec)
+
+
+#### Engineering College
+
+Admission
+: Int (+0,10Msec)
+
+Success
+: Edu (+0,0.1Gsec)
+
+Honours
+: Int (-2(or flawless success on Success roll),Gsec)
+
+
+#### Gunnery College
+
+Admission
+: Int (+0,10Msec)
+
+Success
+: Int (+0,Gsec)
+
+Honours
+: Edu (-2(or flawless success on Success roll),Gsec)
+
+
+#### Flight College
+
+Admission
+: Dex (+0,10Msec)
+
+Success
+: Edu (+0,Gsec)
+
+Honours
+: Int (-2(or flawless success on Success roll),Gsec)
+
+
+#### Pilot College
+
+Admission
+: Dex (+0,10Msec)
+
+Success
+: Dex (+0,Gsec)
+
+Honours
+: Int (-2(or flawless success on Success roll),Gsec)
+
+
+### Career Summary Table
+
+| Career     | Specialisation   | Qualification | Previous Service | Survival | Promotion |
+|:-----------|:-----------------|:-------------:|:-----------------|:--------:|:---------:|
+| Crewman    |                  | Special       |                  |          |           |
+|            | Planetary Navy   | Int -3        |                  | Int +3   | Edu +1    |
+|            | Subsector Navy   | Int -2        |                  | Int +2   | Edu +1    |
+|            | CoreWorlds Fleet | Int -1        |                  | Int +1   | Edu +1    |
+| Support    |                  | Edu -1        | One naval term, skill 1+ |  |           |
+|            | Training         |               | Leadership       | Int +3   | Soc +1    |
+|            | Medical          |               | Medicine         | Edu +1   | Int +3    |
+|            | Administration   |               | Admin            | Edu +2   | Int +2    |
+| Engineering |                 | Int +0        | One naval term   |          |           |
+|            | Damage Control   |               |                  | End +1   | Int +3    |
+|            | Electronics      |               |                  | Edu +2   | Int +2    |
+|            | Mechanic         |               |                  | Int +3   | Edu +1    |
+| Gunnery    |                  | Int +0        | One naval term 	 |          |           |
+|            | Fire Control     |               |                  | Edu +3   | Int +1    |
+|            | Turret           |               |                  | Dex +1   | Edu +3    |
+|            | Countermeasures  |               |                  | Int +2   | Edu +2    |
+| Flight     |                  | Dex +0        | One naval term 	 |          |           |
+|            | Astrogation      |               |                  | Int +3   | Edu +1    |
+|            | Helm             |               |                  | Dex +2   | Edu +2    |
+|            | Sensors          |               |                  | Edu +1   | Int +3    |
+| Pilot      |                  | Dex +0        | One naval term   |          |           |
+|            | Fighter Pilot    |               |                  | Dex +1   | Edu +3    |
+|            | Shuttle Pilot    |               |                  | Edu +3   | Int +1    |
+|            | Special Ops      |               |                  | End +2   | Int +2    |
+| Command    |                  | Soc -1        | Three naval terms |         |           |
+|            | Commander        |               |                  | Int +0   | Edu +2    |
+|            | Aide             |               |                  | Edu +1   | Soc +1    |
+|            | Tactician        |               |                  | Edu +2   | Int +0    |
+| Naval Intelligence |          | Int -3        | Four naval terms |          |           |
+|            | Analyst          |               |                  | Edu +2   | Int +0    |
+|            | Planner          |               |                  | Edu +1   | Soc +1    |
+|            | Black Operations |               |                  | End +0   | Int +2    |
+| Naval Engineering |           | Edu -3        | Four naval terms in Support or Gunnery | | |
+|            | Senior Engineer  |               |                  | Int +1   | Edu +1    |
+|            | Ship Architect   |               |                  | Edu +2   | Int +2    |
+|            | Researcher       |               |                  | Int +0   | Edu +2    |
+| High Command |                | Int -4        | Six naval terms, CoreWorlds Fleet Only | | |
+|            | Legendary Captain |              |                  | Int -2   | Soc +0    |
+|            | Fleet Commander  |               |                  | Int +0   | Soc -2    |
+|            | Daredevil        |               |                  | Soc -1   | Dex -1    |
+
+A character that fails admission to one of the Naval Colleges is able to then attempt to join a career of his choice and does not enter the draft.
+
+If admitted the new midshipman undergoes a series of tests over the course of his term. If he succeeds he is deemed to have passed out of the college with a commission, basic training for his chosen field and can roll on the service skills table for the assignment of his choice.
+
+If the character succeeds in making her honours roll, instead of rolling on the service skills table she is free to choose the skill of her choice from that table.
+
+### Expanded Character Generation & Ranks
+
+Not all ranks are available in all careers. Obviously, a legendary commander is going to be at least of a rank where they will have a command. A character who is not of the minimum rank number or above the maximum rank for a career suffers a –1DM per missing rank number when trying to qualify for that career. If a character qualifies for a career when he is below the minimum rank, he is promoted to that rank.
+
+Some careers are only available to commissioned characters.
+
+For the purposes of benefits ranks o1 to o3 are the equivalent to ranks 1 to 3 respectively in the main Traveller rulebook, ranks o4 and o5 are the equivalent to rank 4, ranks 06 and o7 to rank 5, and ranks o8 and above to rank 6.
+
+| Rank | NCO                     | Rank | Commissioned  |
+|:----:|:------------------------|:----:|:--------------|
+| E1   | Spacehand Recruit       |  O1  | Ensign        |
+| E2   | Spacehand Apprentice    |  O2  | Sublieutenant |
+| E3   | Able Spacehand          |  O3  | Lieutenant    |
+| E4   | Petty Officer 3rd Class |  O4  | Lt Commander  |
+| E5   | Petty Officer 2nd Class |  O5  | Commander     |
+| E6   | Petty Officer 1st Class |  O6  | Captain       |
+| E7   | Chief Petty Officer     |  O7  | Commodore     |
+| E8   | Sr Chief Petty Officer  |  O8  | Fleet Admiral |
+| E9   | Master Chief            |  O9  | Sector Admiral |
+|      |                         | O10  | Grand Admiral |
+
+
+#### Navy Type
+
+A character who leaves a planetary navy to join the CoreWorlds Fleet drops back down to rank 0.
+
+A character ejected from the Fleet or a subsector navy through mishap cannot reenlist in either the Fleet or subsector navy. A character ejected from any career may attempt to join the planetary navy again, but may join a maximum of three different planetary navies.
+
+### Medals and Commendations
+
+These medals are awarded during character generation whenever the character is involved in a Mishap or Event that is combat orientated and needs a skill roll to prevent injury. The result of this roll will determine what medal(s) are received by the character.
+
+Combat Ribbon
+: Any character that is in a combat Event or Mishap will automatically be awarded a Combat Ribbon.
+
+Combat Command Ribbon
+: Any officer that receives a Combat Ribbon is automatically awarded with a Combat Command Ribbon.
+
+Purple Heart
+: Any character that has to roll on the injury table having failed their skill roll is awarded a Purple Heart.
+
+Meritorious Conduct under Fire (MCUF)
+: A character is awarded this medal if the Effect of their skill roll is 3 or more.
+
+Medal for Conspicuous Gallantry (MCG)
+: A character is awarded this medal if the Effect of their Difficult (-2) skill roll is 5 or more.
+
+Starburst for Extreme Heroism (SEH)
+: A character is awarded this medal if the Effect of their Very Difficult (-4) skill roll is 6 or more.
+
+Long Service Medal
+: Any character that serves five or more terms in any Navy automatically receives the Long Service medal.
+
+Meritorious Performance of Duties Medal
+: Whenever a character needs to roll a skill on their events table and rolls a natural 12 they are deemed to have impressed their superiors enough during that term to be made a recipient of this award.
+
+
+#### Medal Benefits
+
+A character who wins a medal may apply a DM from that medal to any one Survival, Qualification or Promotion roll. The DM from a medal may only be applied once.
+
+| Medal                             | DM |
+|:----------------------------------|:--:|
+| Purple Heart                      | +1 |
+| Meritorious Conduct Under Fire    | +2 |
+| Meritorious Performance Of Duties | +1 |
+| Medal for Conspicuous Gallantry   | +3 |
+| Starburst for Extreme Heroism     | +4 |
+| Long Service                      | +1 |
+
+When a character is mustering out, any medal DMs left unused may be converted into extra benefit rolls, at the rate of one roll per 2 DMs left unused, rounding down.
+
+#### Going for Glory
+
+A character may add up to 3 to the difficulty of the skill roll, making it much more likely to be injured. However, when it comes to receiving an award the modifier is added to the Effect instead.
+
+### Crewman
+
+The bulk of the crew on board any naval vessel are low–ranking crewmen, serving under more senior officers. Unlike other careers, the crewman career is divided not by specialisation, but by the type of the navy. Planetary navies are small–scale affairs, normally only a handful of pirate hunter and customs ships or system defence boats. Subsector navies provide local defence and patrol aetherspace around a number of systems. The CoreWorlds Fleet is the most prestigious assignment, but also the most dangerous.
+
+#### Assignments
+
+Choose one of the following:
+
+* Planetary Navy: You served in one of the hundreds of local naval forces across known space.
+* Aetherspace Navy: You served in an aetherspace navy under the seal of some group of star systems, battling pirates and protecting trade routes.
+* CoreWorlds Fleet: You served upon a major warship, watching for incursions by foreign powers.
+
+#### Qualifications:
+
+* Planetary Navy – Int +3
+* Aetherspace Navy – Int +2
+* CoreWorlds Fleet – Int +1
+
+If you are aged 34 or more: –2 DM
+
+Per previous career: –1 DM
+
+
+#### Skills and Training
+
+| Roll | Personal Development | Service Skills      | Advanced Edu (Min 8) |
+|:----:|:--------------------:|:-------------------:|:--------------------:|
+|  1   |        +1 Str        | Pilot (Any)         | Remote Ops           |
+|  2   |        +1 Dex        | Vacc Suit           | Astrogation          |
+|  3   |        +1 End        | Zero-G              | Engineer (any)       |
+|  4   |        +1 Int        | Discipline          | Computers            |
+|  5   |        +1 Edu        | Mechanic            | Medic                |
+|  6   |        +1 Soc        | Gun Combat (any)    | Tactics (naval)      |
+
+| Roll | Planetary Navy      | Aetherspace Navy   | CoreWorlds Fleet        |
+|:----:|:-------------------:|:------------------:|:-----------------------:|
+|  1   | Pilot (any)         | Pilot (any)        | Pilot (any)             |
+|  2   | Space Science (any) | Mechanic           | Engineer (any)          |
+|  3   | Sensors             | Sensors            | Sensors                 |
+|  4   | Comms               | Comms              | Comms                   |
+|  5   | Gunner (any)        | Gunner (turret)    | Gunner (any)            |
+|  6   | Mechanic            | VaccSuit           | Discipline              | 	 	 	 
+
+#### Ranks and Skills
+
+| Rank | Skill             | Rank | Skill           |
+|:----:|:------------------|:----:|:----------------|
+|  E1  |                   |  O1  | Melee (blade) 1 |
+|  E2  | Mechanic or Discipline | O2 | Leadership 1 |
+|  E3  |                   |	 	  |                 |
+|  E4  | Vacc Suit         |      |                 |
+|  E5  |                   |      |                 |
+
+
+#### Career Progress
+
+Fleet Type | Survival | Advancement
+:--------------|:------:|:------:
+Planetary Navy | Int +3 | Edu +1
+Subsector Navy | Int +2 | Edu +1
+Imperial Navy | Int +1 | Edu +1
+
+Commission
+: Edu +0
+
+Ranks
+: E1 to E5, O1 to O2.
+
+
+#### Mustering–Out Benefits
+
+Roll | Cash | Other Benefits
+:-:|:----:|:-----------------
+1	| 1000 | None
+2	| 2000 | +1 Education
+3 | 3000 | +1 Social
+4 | 4000 | Contact
+5 | 5000 | Weapon
+6 | 6000 | 1 Ship Share
+7 | 10,000 | 2 Ship Shares
+
+
+#### Mishaps
+
+----------------------------------------------------------
+ 2d6  Mishap 
+----- ----------------------------------------------------
+  2   Severe budgetary cutbacks leads your squadron being mothballed. You are one of the unfortunates who are not reassigned.
+
+  3   You are placed in the frozen watch, but something goes wrong. One of your limbs atrophies but you are provided with a cybernetic replacement. 
+
+  4   Your ship is destroyed in a naval battle. You survive in an escape pod, but the ensuing inquiries and post–mortems end your career.
+
+  5   A serious accident occurs on your watch and you are blamed for it. The accident is not your fault and is the result of another crew–member’s negligence, but you are blamed. Gain an Enemy.
+
+  6   Injured. Roll on the Injury table
+
+  7   You fall in love with a serving colleague who is already married or in a long–term relationship and the liaison is discovered. You are forced out of the service after a court martial for breaking regulations. Gain your lover’s partner as an Enemy.
+
+  8   Severely wounded. Roll twice on the Injury table and take the lower result.
+
+  9   You are implicated in a scandal. You avoid any real blame, but your tarnished reputation leaves your career in tatters.
+
+  10  A vindictive officer sinks your career. Gain a Rival.
+
+  11  You catch an obscure alien virus that leaves you incapacitated for much of your tour and are medically discharged. Lose 1 from Strength, Dexterity and Endurance as the illness is never fully shaken off.
+
+  12  You are taken prisoner in action and are unable to continue in your role once repatriated.
+
+----------------------------------------------
+
+#### Events
+
+-----------------------------------------------------------
+ d66   Events
+-----  -----------------------------------------------------
+  11    Disaster! Roll on the mishap table, but you are not ejected from this
+career.
+
+  12    A boring assignment leads to temptation. Roll End +0, if you fail you develop a drinking problem or addiction, gain Streetwise and a reliance on a semi–legal drug or alcohol.
+
+  13    You stand out from the rank and file, and are groomed for advancement by a superior. Either gain Leadership, or take a +4DM to your next Advancement roll (in any naval career).
+
+  14    You become well known on board ship for a particular personal quirk. 
+        Roll 1d6 for your reputation: 1-2: Gambler (Gambling 0), 3: Poet (Art 0), 4: Athlete (Athletics 0); 5-6: Joker (Perform 0)
+
+  15    You may report a fellow crewman for dereliction of duty. If you do gain a +2 DM to your next promotion roll and a Rival. If you fail to do so your crewmate is thankful and becomes an Ally.
+
+  16    You are given a special assignment or duty on board ship. Gain a +1 DM to any one Benefit roll.
+
+  21    Your vessel participates in a notable military engagement. Gain one of Sensors 1, Engineer (any) 1, Gunnery (any) 1 or Pilot (any) 1.
+
+  22    You foil an attempted crime on board, such as mutiny, sabotage, smuggling or conspiracy. Gain an Enemy, but also gain a +2 DM to your next Advancement roll in the Navy.
+
+  23    You join a gambling circle on board. Gain Gambler 1 or Deception 1.
+        If you wish, throw Gambler +0. If you succeed, gain an extra Benefit roll from this career; if you fail, you lose one Benefit roll from this career.
+
+  24    There is a hostile stowaway on your ship. Throw Investigate +0. If successful you catch the troublemaker, you gain +4 to your next Advancement roll. If you do not, your ship is sabotaged and you must roll on the Injury table.
+
+  25    You have a chance to save a fellow crewman. If you wish to make the attempt, roll Endurance +0. If you fail, you are injured. If you succeed, gain a Contact.
+
+  26    When hunting an enemy ship in aetherspace, you play cat and mouse with it, chasing sensor ghosts and false trails. Roll Sensors +0 to find it before it finds you. If you fail, the enemy ship escapes, becoming an infamous commerce raider – take its commander as an Enemy.
+
+31–36   Life Event. Roll on the Life Events table (see page 34 of the Traveller main rulebook).
+
+41–46   Naval Event. Roll on the Naval Events table (see page 38).
+
+  51    You are attacked by a hostile native lifeform during a survey mission. Roll Animal (training). If you succeed, you befriend the animal and can keep it as a pet. If you fail roll on the Injury table.
+
+  52    Your ship is boarded, and you find yourself fighting blade to blade with the enemy. Gain Melee (blades) 1 and a duelling scar.
+
+  53    You are attacked and overrun during a survey mission. One of your crew falls behind. You must make a Athletics check to escape; if you stop to pick up the fallen crewman, you have a –2 DM to your roll. If you escape and rescue the crewman, gain an Ally. If you fail, roll twice on the Injury table and take the lowest result.
+
+  54    You are engaged in first contact with an alien culture. Roll Diplomacy; if you fail roll on the Injury table. Succeed and you gain one of Diplomacy or Carouse.
+
+  55    You are escorting a crewmate to his court martial when there is an escape attempt. Roll Melee (any); if you succeed you gain an Enemy and a +4DM to your next promotion roll. If you fail roll on the Injury table.
+
+  56    You take part in a boarding action against a pirate vessel. Roll Gun Combat (any) or Melee (any). If you succeed you gain one of Melee, Gun Combat or Tactics. If you fail roll on the injury table.
+
+  61    On a long survey mission, you pick up some useful skills. Gain Survival 1, Sensors 1, Navigation 1 or Recon 1.
+
+  62    You spend this term in the asteroid belts of a system, showing the navy’s presence and performing detailed surveys. Gain one rank in Vacc Suit, Zero-G or Sensors.
+
+  63    You are assigned to various non-combat support vessels. Forced to work alongside reservists and civilian crews, you appreciate the Navy way of doing things even more. Gain one of Discipline, Carouse or Persuade.
+
+  64    You star in a series of documentaries featuring your ship and your role gains you 1D3 Contacts, within and/or outside of the navy.
+
+  65    You impress a visiting officer so much you may automatically enter a branch of the service of your choice that you have the qualifications for.
+
+  66	  You display heroism in battle, helping save your ship. You may gain a promotion or a commission automatically.
+
+
+#### Naval Events
+
+-----------------------------------------------------------
+ 2d6  Events
+----- -----------------------------------------------------
+  2   Just a Flesh Wound: The character is grazed by shrapnel or stray munitions. Roll two dice on the Injury table, choosing the higher result.
+
+  3   Special Mission: The character is assigned a secret mission by the navy. The mission goes off without a hitch, but something from the mission may show up during the campaign. Discuss the exact nature of the mission with your Referee.
+
+  4   New Rival: Someone on board ship or encountered while serving takes a strong dislike to the character, and becomes a rival.
+
+  5   Shore Encounter: During a period of liberty, the character has a curious and memorable encounter with a civilian. 
+      Roll 1d6: 1–2: Romantic, 3: Alien, 4: Criminal, 5: Conspiracy, 6: New Contact.
+
+  6   New Contact: The character picks up a new contact. 
+      Roll 1d6: 1–3: Naval, 4–5: Civilian, 6: Superior officer or unusual.
+
+  7   Cross Training: You receive training in a different branch of the navy. Roll on any Service Skill table besides your own. You can join this branch if you meet its requirements next term with a +4DM to enlistment.
+
+  8   Extra Training: You are given extra training. Roll Edu to gain any one skill.
+
+  9   Lifesaver: You save the life of a crewman who becomes a lifelong friend. Gain a new Ally.
+
+  10  Holding Action: You are on board a warship that holds off a vastly superior hostile force for a prolonged period of time before relief arrives. This action results in all the crew being considered heroes both within the navy and amongst the wider population. Increase Social Standing by one or gain a +1 DM to your next Benefits roll.
+
+  11  Medal: Roll over (10 – the number of terms since you last won a medal) to win a medal. If you roll the indicated number or higher, you are awarded the citation for Meritorious Performance of Duties. If you roll three or more higher than the indicated number, you are awarded a Medal for Conspicuous Gallantry.
+
+  12  Unusual Event: Something odd has occurred. 
+      Roll 1d6:
+      1: One of your crewmates is a secret telepath, who offers to train you in psionics. You may test your Psionic Strength Potential and, if strong enough, take the Psionist career next term.
+      2: You are framed for a crime, and imprisoned for the remainder of this term. You are then ejected from the navy.
+      3: Your ship misjumps, and has to make a long voyage home. Increase your age by 1d6 100Msec and gain half as many skills, rounding up.
+      4: You uncover evidence of a conspiracy within the navy. Either join them, or reveal their existence and gain 1d3 Enemies.
+      5: You are captured and interrogated by agents of a foreign power. You manage to escape or be rescued (or did they let you go…?).
+      6: Your ship encounters an anomaly, possibly connected to the Ancients.
+
+  ---------------------------------------------
+
+### New Skills 
+
+Engineer (naval)
+: This speciality of the Engineer skill covers the design and construction of starships. It is of limited practical use in the field, but can be substituted for any other Engineer speciality at a –2DM when dealing with starship systems. 
+
+* Discovering a design flaw in a prototype ship underground shakedown: 1–6 days, Intelligence, Difficult (–2) 
+* Designing a new class of starship: 1–6 years, Education, Hard (–4)
+
+Discipline
+: The martial Discipline skill covers self–control, ingrained reflexes and training. A character with a high Discipline is adept at following orders and procedures. In game terms, as long as the character is in a situation covered by his training, he may reduce any negative DM by an amount equal to his Discipline skill. This may be done a number of times each day equal to his Discipline skill. This can only be applied to skills that the character already has at a skill level of 1 or more. 
+: Discipline cannot turn a negative DM into a positive DM – training allows a character to do the right thing and ignore distractions, but does not give him any extra competence or ability.
+
+### New Benefits
+
+Noble Consort
+: The character is offered the chance to wed a member of a highly influential noble biological family. This consort gives +2 Social Standing, and a dowry of 2d6 x 10,000 credits.
+
+Independent Operation
+: The character may set up his own business or group that works with the navy, such as a mercenary group, spy network or private think–tank. The navy will pay up to 20 ship shares or 1d6 MCr towards initial start-up costs, as long as the character agrees to favour them as a client.
+
+Retainer
+: The navy wishes to retain the character’s services, calling on him as a consultant or advisor. The character will be paid Cr. 1,000 per month on condition that he remain available for naval service when called upon.
+
+Prototype
+: You are given a prototype ship component or technology, such as an advanced weapon or combat implant. This item is technically still the property of the Imperial navy, but you are permitted to test it in the field.
+
 Aliens
 ======
 
