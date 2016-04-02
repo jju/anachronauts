@@ -16,7 +16,7 @@ Dice Modifier (DM)
 
 Unless otherwise noted a modified roll of 8+ is a *costly* success, and a modified roll of 12+ is a *flawless* success.
 
-*Technology Levels*
+Technology Levels
 =================
 
 Technology Levels measure the scientific-industrial capacity of a world and the complexity and effectiveness of a piece of equipment.
