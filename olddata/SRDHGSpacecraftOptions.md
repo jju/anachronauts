@@ -455,182 +455,144 @@ The number of active screens a spacecraft can support is limited to the power pl
 
 #### Capital Ship Barrage attack characteristics
 
-Weapon 	Range	Damage per weapon 	Attack Roll DMs
-Pulse Laser	Short 	2 	–2
-Beam Laser	Medium 	1 	 
-Turret Particle Beam	Long 	3 + 1 radiation hit 	 
-Sandcaster	Close 	1 per 4 sandcasters fired 	 
-Pebbles	Close 	1 per 2 pebbles fired 	 
-Normal or Smart Missile 	Special 	1 per missile 	 
-Nuclear Missile	Special 	2 + 1 radiation hit per missile 	 
-Long Range Missile	Special 	1 per missile 	–1
-Multi–Warhead Missile	Special 	1d6 per missile 	 
-Shockwave Missile	Special 	Negate use of sandcasters if at least 5%
-damage inflicted 	 
-Ortillery Missile	Adjacent 	As normal missiles 	 
-50 ton Missile Bay	  	12 missiles 	 
-100 ton Missile Bay	  	24 missiles 	 
-50 ton Particle Beam	Long 	6 + 1 radiation hit 	 
-100 ton Particle Beam	Long 	9 + 1 radiation hit 	 
-50 ton Fusion Gun	Medium 	5 + 1 radiation hit 	 
-100 ton Fusion Gun	Medium 	8 + 1 radiation hit 	 
-50 ton Meson Gun	Long 	5 + 1 radiation hit 	 
-100 ton Meson Gun	Long 	8 + 1 radiation hit 	 
-Torpedo	Special 	4 per torpedo 	 
-Nuclear Torpedo	Special 	6 + 1 radiation hit per torpedo 	 
-Bomb Pumped Laser Torpedo	Special 	6 per torpedo 	 
-Ortillery Torpedo	Special 	8 per torpedo 	–2, additional +1 for point
-defences
-50 ton Torpedo Bay	  	3 torpedoes 	 
-100 ton Torpedo Bay	  	6 torpedoes 	 
-Railgun	Short 	3 	 
-50 ton Railgun Bay	Short 	12 	 
-100 ton Railgun Bay	Short 	18 	 
-Particle Beam Barbette	Long 	4 + 1 radiation hit 	 
-50 ton Meson Flicker	Long 	1d6 + 2 radiation hits 	 
-100 ton Meson Flicker	Long 	2d6+1 radiation hits 	 
+| Weapon                |   Range   | Damage/weapon | Attack DMs |
+|:----------------------|:---------:|:-------------:|:----------:|
+| Pulse Laser           | Short     |       2       |     –2     |
+| Beam Laser            | Medium    |       1       |            |
+| Turret Particle Beam  | Long      |  3 + 1 radiation hit |     |
+| Sandcaster            | Close     |  1 per 4 sandcasters fired | |
+| Pebbles               | Close     |  1 per 2 pebbles fired |   |
+| Normal / Smart Missile | Special  |  1 per missile |           |
+| Nuclear Missile       | Special   |  2 + 1 radiation hit per missile | |
+| Long Range Missile    | Special   |  1 per missile |    –1     |
+| Multi–Warhead Missile | Special   |  1d6 per missile |         |
+| Shockwave Missile     | Special   |  Negate use of sandcasters if 5%+ damage inflicted | |
+| Ortillery Missile     | Adjacent  | As normal missiles |       |
+| 50 ton Missile Bay    |           | 12 missiles    |           |
+| 100 ton Missile Bay   |           | 24 missiles    |           |
+| 50 ton Particle Beam  | Long      | 6 + 1 radiation hit |      |
+| 100 ton Particle Beam | Long      | 9 + 1 radiation hit |      |
+| 50 ton Fusion Gun     | Medium    | 5 + 1 radiation hit |      |
+| 100 ton Fusion Gun    | Medium    | 8 + 1 radiation hit |      |
+| 50 ton Meson Gun      | Long      | 5 + 1 radiation hit |      |
+| 100 ton Meson Gun     | Long      | 8 + 1 radiation hit |      |
+| Torpedo               | Special   | 4 per torpedo  |           |
+| Nuclear Torpedo       | Special   | 6 + 1 radiation hit per torpedo | |
+| Bomb Pumped Laser Torpedo | Special | 6 per torpedo |          |
+| Ortillery Torpedo     | Special   | 8 per torpedo | –2, additional +1 for point defences |
+| 50 ton Torpedo Bay    |           | 3 torpedoes    |           |
+| 100 ton Torpedo Bay   |           | 6 torpedoes    |           |
+| Railgun               | Short     |      3         |           |
+| 50 ton Railgun Bay    | Short     |     12         |           |
+| 100 ton Railgun Bay   | Short     |     18         |           |
+| Particle Beam Barbette | Long     | 4 + 1 radiation hit |      |
+| 50 ton Meson Flicker  | Long      | 1d6 + 2 radiation hits |   |
+| 100 ton Meson Flicker | Long      | 2d6+1 radiation hits |     |
 
 
-    Primitive & Advanced Spacecraft (top
-    <http://www.travellersrd.com/content/official/mongoose_traveller_srd/high_guard_srd/spacecraft_options.html>)
+### Primitive & Advanced Spacecraft 
 
-There is a 5% price discount per TL for older technology devices if
-bought new at the source, to a maximum of –30%. Characters can buy
-second–hand outdated technology for a fraction of the price (10% to 75%,
-depending on condition and usability).
+There is a 5% price discount per TL for older technology devices if bought new at the source, to a maximum of –30%. Characters can buy second–hand outdated technology for a fraction of the price (10% to 75%, depending on condition and usability).
 
+#### Hulls
 
-      Hulls
+Low Technology Hulls are not as space–worthy as standard hulls, and use lower–grade material. They have lower Hull and Structure values.
 
-Low Technology Hulls are not as space–worthy as standard hulls, and use
-lower–grade material. They have lower Hull and Structure values.
+High Technology Hulls are constructed using new materials according to the most advanced naval architecture designs, making them stronger.
 
-High Technology Hulls are constructed using new materials according to
-the most advanced naval architecture designs, making them stronger.
+| TL       |   7  |   8  |   9  |  10  |  11  |  12  |  13  |  14  |  15  | 16 |
+|:---------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+| Cost     | 100% | 100% | 100% | 100% | 100% | 100% | 110% | 125% | 150% | 200% |
+| Hull per | 100 |   90  |  80  |  70  |  60  |  50  |  45  |  40  |  35  |  25  |
 
-TL	7	8	9	10	11	12	13	14	15	16
-Cost	100% 	100% 	100%	100%	100%	100%	110%	125% 	150% 	200%
-Hull per	100 	90 	80	70	60	50	45	40 	35 	25
+The Hull Per row determines how many Hull and Structure points a spacecraft will have at that technology level. Normally, a ship has one Hull point and one Structure point per 50 tons. At higher technology levels, a ship can have more Hull and Structure for its tonnage.
 
-The Hull Per row determines how many Hull and Structure points a
-spacecraft will have at that technology level. Normally, a ship has one
-Hull point and one Structure point per 50 tons. At higher technology
-levels, a ship can have more Hull and Structure for its tonnage.
-
-
-      Drives
+#### Drives
 
 The standard TL for drives is given in the Drive TL table.
 
- 	1	2	3	4	5	6
-Manoeuvre 	7 	7 	8 	8 	8 	9
-Jump 	9 	11 	12 	13 	14 	15
+Drive     |  1 |  2 |  3 |  4 |  5 |  6 |
+:---------|:--:|:--:|:--:|:--:|:--:|:--:|
+Manoeuvre |  7 |  7 |  8 |  8 |  8 |  9 |
+Jump      |  9 | 11 | 12 | 13 | 14 | 15 |
 
 
- 	TL –1	TL +0	TL +1	TL +2	TL+3
-Tonnage 	200% 	100% 	95% 	90% 	75%
-Cost 	150% 	100% 	110% 	125% 	200%
+DriveTL | TL –1 | TL +0 | TL +1 | TL +2 | TL +3 |
+:-------|:-----:|:-----:|:-----:|:-----:|:-----:|
+Tonnage |  200% |  100% |   95% |   90% |   75% |
+Cost    |  150% |  100% |  110% |  125% |  200% |
 
+#### Power Plants
 
-        Power Plants
-
- 	TL 8–10	TL 11–14	TL 15+
-Tonnage 	125% 	100% 	75%
-Cost 	100% 	100% 	200%
-
+PPlantTL |  8–10 | 11–14 |  15+  |
+:--------|:-----:|:-----:|:-----:|
+Tonnage  |  125% |  100% |   75% |
+Cost     |  100% |  100% |  200% |
 
         Armaments & Screens
 
- 	TL –1	TL +0	TL +1	TL +2	TL+3
-Tonnage 	200%	100% 	90% 	75% 	60%
-Cost 	150%	100% 	110% 	125% 	200%
+WeaponTL | TL –1 | TL +0 | TL +1 | TL +2 | TL +3 |
+:--------|:-----:|:-----:|:-----:|:-----:|:-----:|
+Tonnage  |  200% |  100% |   90% |   75% |   60% |
+Cost     |  150% |  100% |  110% |  125% |  200% |
 
 
- 	 	 	 
-Pulse Laser	7 	Missile 	6
-Beam Laser	9 	Nuclear Missile	6
-Particle Beam	8 	Smart Missile	8
-Fusion Gun	12 	Torpedo	9
-Meson Gun	11 	Railgun	9
-Nuclear Damper	12 	Meson Flicker	13
-Meson Screen	12 	 	 
+Weapon         | TL | Weapon          | TL |
+:--------------|:--:|:----------------|:--:| 	 	 	 
+Pulse Laser    |  7 | Missile         |  6 |
+Beam Laser     |  9 | Nuclear Missile |  6 |
+Particle Beam  |  8 | Smart Missile   |  8 |
+Fusion Gun     | 12 | Torpedo         |  9 |
+Meson Gun      | 11 | Railgun         |  9 |
+Nuclear Damper | 12 | Meson Flicker   | 13 |
+Meson Screen   | 12 |                 |    |
 
-Instead of decreasing the tonnage of the weapon or screen, it is
-possible to select upgrades for a higher–technology weapon or screen.
-One upgrade may be added per extra Tech Level.
+Instead of decreasing the tonnage of the weapon or screen, it is possible to select upgrades for a higher–technology weapon or screen. One upgrade may be added per extra Tech Level.
 
-Some upgrades are double upgrades, consuming two ‘slots’. An upgrade may
-only be taken once.
+Some upgrades are double upgrades, consuming two ‘slots’. An upgrade may only be taken once.
 
-*Accurate (Double Upgrade):* Accurate weapons have a +1 DM to all attack
-rolls (not applicable to screens). In capital ship combat, if all the
-weapons firing in the barrage are accurate, a +1 DM is used on the
-attack roll.
+Accurate (Double Upgrade)
+: Accurate weapons have a +1 DM to all attack rolls (not applicable to screens). In capital ship combat, if all the weapons firing in the barrage are accurate, a +1 DM is used on the attack roll.
 
-Easy to Repair: Easy to Repair armaments give a +1 DM to all repair
-attempts in spacecraft and capital ship combat.
+Easy to Repair
+: Easy to Repair armaments give a +1 DM to all repair attempts in spacecraft and capital ship combat.
 
-High Yield: When rolling damage for a High Yield weapon or performance
-of a high yield screen, any ‘1’s rolled on the dice are counted as ‘2’s.
-For example, a roll of 1, 1, 2 on a High Yield Particle Beam attack
-would deal 6 damage, as the two ‘1’s become two ‘2’s. In capital ship
-combat, if all the weapons firing in the barrage have high yield, a +1
-DM is used on the attack roll. High yield screens have no effect in
-capital ship combat
+High Yield
+: When rolling damage for a High Yield weapon or performance of a high yield screen, any ‘1’s rolled on the dice are counted as ‘2’s. For example, a roll of 1, 1, 2 on a High Yield Particle Beam attack would deal 6 damage, as the two ‘1’s become two ‘2’s. In capital ship combat, if all the weapons firing in the barrage have high yield, a +1 DM is used on the attack roll. High yield screens have no effect in capital ship combat.
 
-*Long Range:* The optimum range for the weapon is increased by one band.
-For example, a Pulse Laser has an Optimum range of Short. A Long Range
-Pulse Laser has an Optimum range of Medium instead (not applicable to
-screens)
+Long Range
+: The optimum range for the weapon is increased by one band. For example, a Pulse Laser has an Optimum range of Short. A Long Range Pulse Laser has an Optimum range of Medium instead (not applicable to screens)
 
-*Resilient (Double Upgrade):* The first hit on a Resilient weapon is
-ignored. This only applies in capital ship combat if all the weapons of
-that type in that section are resilient.
+Resilient (Double Upgrade)
+: The first hit on a Resilient weapon is ignored. This only applies in capital ship combat if all the weapons of that type in that section are resilient.
 
-*Variable Range (Double Upgrade):* A Variable Range weapon increases its
-Optimum Range by one band in either direction. For example, a Pulse
-Laser has an Optimum range of Short. A Variable Range Pulse Laser has an
-Optimum Range of Close–Medium (not applicable to screens)
+Variable Range (Double Upgrade)
+: A Variable Range weapon increases its Optimum Range by one band in either direction. For example, a Pulse Laser has an Optimum range of Short. A Variable Range Pulse Laser has an Optimum Range of Close–Medium (not applicable to screens)
 
-*Very High Yield (Double Upgrade):* When rolling damage for a Very High
-Yield weapon, any ‘1’s or ‘2’s rolled on the dice are counted as ‘3’s.
-For example, a roll of 1, 1, 2 on a Very High Yield Particle Beam attack
-would deal 9 damage, as all the dice are below the threshold and become
-‘3’s. In capital ship combat, if all the weapons firing in the barrage
-have high yield, a +2 DM is used on the attack roll. Very high yield
-screens have no effect in capital ship combat
+Very High Yield (Double Upgrade)
+: When rolling damage for a Very High Yield weapon, any ‘1’s or ‘2’s rolled on the dice are counted as ‘3’s. For example, a roll of 1, 1, 2 on a Very High Yield Particle Beam attack would deal 9 damage, as all the dice are below the threshold and become ‘3’s. In capital ship combat, if all the weapons firing in the barrage have high yield, a +2 DM is used on the attack roll. Very high yield screens have no effect in capital ship combat.
 
+### Construction Time
 
-    Construction Time (top
-    <http://www.travellersrd.com/content/official/mongoose_traveller_srd/high_guard_srd/spacecraft_options.html>)
+The construction times for bespoke and particularly military designs is as follows and is based on their displacement:
 
-The construction times for bespoke and particularly military designs is
-as follows and is based on their displacement:
+The first number is for the first ship of that class built in that yard and the second number is for subsequent ships.
 
-The first number is for the first ship of that class built in that yard
-and the second number is for subsequent ships.
-
-Size (tons)	Duration (weeks)
-50 or less 	24/15
-60 to 80 	32/19
-90 to 100 	40/24
-200 to 300 	48/29
-400 to 500 	64/38
-600 to 700 	96/58
-800 to 900 	112/67
-1,000 to 4,000 	120/72
-5,000 to 7,500 	144/86
-10,000 to 15,000 	160/96
-20,000 to 40,000 	174/104
-50,000 to 75,000 	192/115
-100,000 	208/125
-200,000 to 400,000 	224/134
-500,000 to 900,000 	232/139
-1,000,000 	240/144
-
-This website is owned and created by Gregory Wolfe
-<mailto:gregory@travellersrd.com>. This website is an independent entity
-and is not affiliated with Mongoose Publishing or Far Future
-Enterprises. Unless otherwise noted all content on this site is owned by
-and copyrighted to its original authors.
-
+Size (tons)        |   MSec  |
+:------------------|--------:|
+50 or less         |   24/15 |
+60 to 80           |   32/19 |
+90 to 100          |   40/24 |
+200 to 300         |   48/29 |
+400 to 500         |   64/38 |
+600 to 700         |   96/58 |
+800 to 900         |  112/67 |
+1,000 to 4,000     |  120/72 |
+5,000 to 7,500     |  144/86 |
+10,000 to 15,000   |  160/96 |
+20,000 to 40,000   | 174/104 |
+50,000 to 75,000   | 192/115 |
+100,000            | 208/125 |
+200,000 to 400,000 | 224/134 |
+500,000 to 900,000 | 232/139 |
+1,000,000          | 240/144 |
