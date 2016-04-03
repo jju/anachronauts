@@ -143,6 +143,10 @@ Diplomacy
 * Planetary
 * Sectoral
 
+Discipline
+: The martial Discipline skill covers self–control, ingrained reflexes and training. A character with a high Discipline is adept at following orders and procedures. In game terms, as long as the character is in a situation covered by his training, he may reduce any negative DM by an amount equal to his Discipline skill. This may be done a number of times each day equal to his Discipline skill. This can only be applied to skills that the character already has at a skill level of 1 or more. 
+: Discipline cannot turn a negative DM into a positive DM – training allows a character to do the right thing and ignore distractions, but does not give him any extra competence or ability.
+
 Drive
 : This skill is for controlling ground vehicles of various types. There are several specialities.
 
@@ -219,7 +223,10 @@ Intimidate
 * Torture
 
 Investigate
-: The Investigate skill incorporates keen observation, forensics, and detailed analysis.
+: The Investigate skill incorporates keen observation, forensics, and detailed analysis. Really, many skills can be used to investigate incidences. This specifically refers to having the actual legal authority to do so.
+
+* Cop Talk
+* Authority
 
 Jack of All Trades
 : The Jack of All Trades skill works differently to other skills. It reduces the unskilled penalty a character receives for not having the appropriate skill by one for every level of Jack of All Trades.
@@ -401,7 +408,7 @@ Tactics
 * Space: Coordinating the attacks of a spacecraft or fleet in physical space.
 
 Trade
-: A character with a Trade skill is trained in producing some useful goods or services.
+: A character with a Trade skill is trained in producing some useful goods or services. This skill often operates in the 10-100Msec scale.
 
 * Architecture: Designing structures and buildings. Also, Microgravity Architecture.
 * Biologicals: Engineering and managing artificial organisms.
@@ -410,6 +417,7 @@ Trade
 * Hydroponics: Growing crops in hostile environments.
 * Polymers: Designing and using polymers.
 * Robotics: The study of robot construction and use.
+* Naval Engineering: Designing starships and working out design flaws in them.
 
 Vacc Suit
 : The Vacc Suit skill allows a character to wear and operate spacesuits and environmental suits. If the character does not have the requisite Vacc Suit skill for the suit he is wearing, he suffers a –2 DM to all skill checks made while wearing a suit for each missing level.
