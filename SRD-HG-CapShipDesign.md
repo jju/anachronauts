@@ -37,13 +37,13 @@ The base cost of a hull is MCr. 0.1 per ton, plus a modifier based on the Hull C
   Buffered Planetoid    Yes              50%       No            Special
 
 
-  Hull Code   Number of Sections   Section 1     Section 2   Section 3         Section 4         Section 5   Section 6
-  ----------- -------------------- ------------- ----------- ----------------- ----------------- ----------- -----------
-  CA to CE    2                    Engineering   Forward                                                      
-  CF to CK    3                    Engineering   Main        Forward                                          
-  CL to CQ    4                    Engineering   Amidships   Main              Forward                        
-  CR to CV    5                    Engineering   Aft         Amidships         Main              Forward      
-  CW to CZ    6                    Engineering   Aft         Upper Amidships   Lower Amidships   Main        Forward
+  Hull Code   # Sections   Section 1     Section 2   Section 3         Section 4         Section 5   Section 6
+  ----------- ------------ ------------- ----------- ----------------- ----------------- ----------- -----------
+  CA to CE    2            Engineering   Forward                                                      
+  CF to CK    3            Engineering   Main        Forward                                          
+  CL to CQ    4            Engineering   Amidships   Main              Forward                        
+  CR to CV    5            Engineering   Aft         Amidships         Main              Forward      
+  CW to CZ    6            Engineering   Aft         Upper Amidships   Lower Amidships   Main        Forward
 
 Planetoid and Buffered Planetoid hulls cost Cr 4000 per ton to transport from the local planetoid belt and to drill out. Only 80% of the volume of a planetoid hull is useable and 65% of the volume of a buffered planetoid is useable.
 
@@ -97,17 +97,12 @@ Antimatter plants are the same size and are only available from TL 17.
 
 Cost per ton is as follows:
 
-Chemical power plants MCr 1.25
-
-Fission power plants MCr 1
-
-TL8–10 Fusion MCr 2
-
-TL11–14 Fusion MCr 2.5
-
-TL15 Fusion MCr 5
-
-Antimatter plants MCr 2.5
+* Chemical power plants MCr 1.25
+* Fission power plants MCr 1
+* TL8-10 Fusion MCr 2
+* TL11-14 Fusion MCr 2.5
+* TL15+ Fusion MCr 5
+* Antimatter plants MCr 2.5
 
 The power plant rating must be at least equal to either the manoeuvre drive or Jump drive rating, whichever is higher, unless a chemical manoeuvre drive is fitted, in which case the rating must be 1 or the jump drive rating if this is higher. The power plant rating also determines what weapons and defensive screens of each type in each screen group the ship can carry. There is no limitation on the number of redundant screens fitted.
 
@@ -124,11 +119,14 @@ For example a 60,000 ton TL 15 ship with power plant rating of 5 may have up to 
 
 ### Fuel
 
-Manoeuvre Drive fuel is only needed if a reaction drive is fitted. The amount of fuel required is determined as the percentage of ship displacement = 2.5 per thrust hour.
+Manoeuvre Drive fuel
+: is only needed if a reaction drive is fitted. The amount of fuel required is determined as the percentage of ship displacement = 2.5 per thrust hour.
 
-**Jump Drive fuel** depends on the size of the ship and the length of the Jump, and is calculated as 0.1 x tonnage x Jump Number, and allows one Jump of the stated level.
+Jump Drive fuel
+: depends on the size of the ship and the length of the Jump, and is calculated as 0.1 x tonnage x Jump Number, and allows one Jump of the stated level.
 
-**Power plant fuel** depends on the tonnage of the plant. For fusion plants an amount of fuel equal to two thirds of the tonnage of the power plant will power the starship for two weeks.
+Power plant fuel
+: depends on the tonnage of the plant. For fusion plants an amount of fuel equal to two thirds of the tonnage of the power plant will power the starship for two weeks.
 
 ### Hyperspace Drive
 
@@ -242,7 +240,6 @@ Increasing Tech Level will reduce size and cost significantly with some improvem
   Size and Cost   –10%   –20%   –30%   –40%
   Damage          +5%    +10%   +15%   +20%
 
-\
 
   Meson           TL+1   TL+2   TL+3   TL+4
   --------------- ------ ------ ------ ------
@@ -266,12 +263,13 @@ Rapid Fire
 
 #### Spinal Weapons
 
-Particle Type | Base TL | Tons | Damage | Cost | Meson Type | Base TL | Tons | Damage | Cost |
-A | 8 | 5000 | 200 | 3500 | A | 11 | 5000 | 200 | 5000 | 
-B | 12 | 3000 | 300 | 2100 | B | 11 | 8000 | 250 | 8000 |
-C | 10 | 5000 | 300 | 3500 | C | 12 | 10000 | 350 | 10000 |
-D | 14 | 3500 | 400 | 2500 | D | 13 | 14000 | 450 | 14000 |
-E | 12 | 4000 | 400 | 2800
+| Particle Type | Base TL | Tons | Damage | Cost | Meson Type | Base TL | Tons | Damage | Cost |
+|:-:|--:|-----:|----:|-----:|:-:|--:|-----:|----:|-----:|
+| A | 8 | 5000 | 200 | 3500 | A | 11 | 5000 | 200 | 5000 | 
+| B | 12 | 3000 | 300 | 2100 | B | 11 | 8000 | 250 | 8000 |
+| C | 10 | 5000 | 300 | 3500 | C | 12 | 10000 | 350 | 10000 |
+| D | 14 | 3500 | 400 | 2500 | D | 13 | 14000 | 450 | 14000 |
+| E | 12 | 4000 | 400 | 2800 | | | | | |
 
 Components
 ----------
@@ -350,10 +348,13 @@ A ship may have low berths installed (and competent medical personnel assigned).
   Frozen Watch    Varies                                 Low Berth
   --------------------------------------------------------------------
 
-Quarters
-: Staterooms or quarters must be provided for the entire crew. The captain of the ship must be provided with an individual stateroom, as must the commanding officers of each section and the commander of the ship's troops. All other personnel on military vessels must be provided with the equivalent of half a stateroom each.
-: Passengers should be provided with single staterooms. Low passengers should be provided with individual low berths.
-: Staterooms require 4 tons at a cost of MCr 0.5 per stateroom. Staterooms actually average about 2 tons, but the additional tonnage is used to provide corridors and access ways, as well as galley and recreation areas. Low berths require 0.5 ton per berth, at a cost of MCr 0.05 each.
+### Quarters
+
+Staterooms or quarters must be provided for the entire crew. The captain of the ship must be provided with an individual stateroom, as must the commanding officers of each section and the commander of the ship's troops. All other personnel on military vessels must be provided with the equivalent of half a stateroom each.
+
+Passengers should be provided with single staterooms. Low passengers should be provided with individual low berths.
+
+Staterooms require 4 tons at a cost of MCr 0.5 per stateroom. Staterooms actually average about 2 tons, but the additional tonnage is used to provide corridors and access ways, as well as galley and recreation areas. Low berths require 0.5 ton per berth, at a cost of MCr 0.05 each.
 
 Section Hit Tables
 ------------------
