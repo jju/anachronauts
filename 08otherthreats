@@ -1,0 +1,261 @@
+Threats
+=======
+
+Animals
+-------
+
+Animals have a similar range of characteristics to humans, but there are several differences:
+
+Instinct
+: Instinct is the animal equivalent of Education. Animals apply their Instinct DM to tasks such as sensing prey or solving problems.
+
+Pack
+: Pack is the animal equivalent of Social Standing. The higher a creature’s Pack score, the larger the group that it is associated with, and the more standing the creature has in that group.
+
+### Behaviours
+
+Terran creatures that exemplify these behaviours are noted in brackets after the name. Characteristic modifiers and skills are noted after the description - the exact level of skills varies depending on the particular creature.
+
+Carrion-Eater (vulture)
+: Scavengers which wait for all other threats to disperse before beginning. Carrion-eaters have Recon. Instinct +2.
+
+Chaser (wolf)
+: Animals which kill their prey by attacking and exhausting it after a chase. Chasers have Athletics (co-ordination and/or endurance). Dexterity +4, Instinct +2, Pack +2.
+
+Eater (army ant)
+: Eaters will eat anything they encounter, including characters. Endurance +4. Pack +2.
+
+Filter (earthworm)
+: Herbivores which pass their environment through their bodies are termed filters. Unlike grazers, which move to food, filters move a flow of matter through themselves and filter out the food. Endurance +4.
+
+Gatherer (raccoon, chimpanzee)
+: Gatherers are herbivores that collect and store food. Gatherers have Stealth. Pack +2.
+
+Grazer (antelope)
+: Grazers move from food source to food source, often in large packs. Their primary form of defence tends to be fleeing danger. Instinct +2, Pack +4.
+
+Hunter (baboon)
+: Opportunistic predators that stalk easy prey. Hunters have Survival. Instinct +2.
+
+Hijacker (lion)
+: Scavengers which steal the kills of others through brute force or weight of numbers are hijackers. Strength +2, Pack +2.
+
+Intimidator (coyote)
+: Scavengers which establish their claim to food by frightening or intimidating other creatures. Intimidators have Persuade.
+
+Killer (shark)
+: Carnivores that possess a raw killing instinct, attacking in a frenzied manner. Killers have Melee and either Strength or Dexterity +4, Instinct +4, Pack -2.
+
+Intermittent (elephant)
+: Herbivores that do not devote their entire time to searching for food. Intermittents have Pack +4.
+
+Pouncer (cat)
+: Pouncers kill by stalking and ambushing their prey. Pouncers have Stealth, Recon and Athletics. Dexterity +4, Instinct +4.
+
+Reducer (vermin)
+: Reducers are scavengers that act constantly on all available food, devouring even the remains left by other scavengers. Pack +4
+
+Siren (venus fly-trap)
+: Sirens create a lure to attract prey. Usually, this lure will be specific to the species the siren preys on, but some rare lures are universal. Sirens have Deception. Pack -4
+
+Trapper (spider)
+: An animal which allows its prey to enter a trap. Generally, any creature surprised by a trapper is caught in its trap. Pack -2.
+
+### Creature Sizes and Characteristics
+
+For each creature, roll 2d6 for its Size and apply any Dice Modifiers from its Terrain or Movement category. The creature’s Size determines its Weight, Strength, Dexterity and Endurance – for example, a roll of 7 means that the creature has a Strength of 3d6, an Dexterity of 3d6 and an Endurance of 3d6.
+
+Roll 2d6 separately for the animal’s Weapons and Armour. Add a +8 DM when rolling for weapons if the animal is a Carnivore, and a +4 if it is an Omnivore; subtract a –6 DM if the animal is a Herbivore. Scavengers automatically have Teeth in addition to any other weapons. If a number is present after the Weapons type, then add that number to the number of damage dice the creature rolls.
+
+#### Size Table
+
+  ----------- ------------- ---------- ----------- -----------
+  2d6         Weight (kg)   Strength   Dexterity   Endurance
+  1 or less   1             1          1d6         1
+  2           3             2          1d6         2
+  3           6             1d6        2d6         1d6
+  4           12            1d6        2d6         1d6
+  5           25            2d6        3d6         2d6
+  6           50            2d6        4d6         2d6
+  7           100           3d6        3d6         3d6
+  8           200           3d6        3d6         3d6
+  9           400           4d6        2d6         4d6
+  10          800           4d6        2d6         4d6
+  11          1600          5d6        2d6         5d6
+  12          3200          6d6        1d6         6d6
+  13          5000          7d6        1d6         7d6
+  ----------- ------------- ---------- ----------- -----------
+
+#### Weapons & Armour Table
+
+  ----------- -------------------- -- ----------- --------
+  2d6         Weapons                 2d6         Armour
+  1 or less   None                    1 or less   0
+  2           Teeth                   2           0
+  3           Horns                   3           0
+  4           Hooves                  4           1
+  5           Hooves and Teeth        5           1
+  6           Teeth                   6           2
+  7           Claws +1                7           2
+  8           Stinger +1              8           3
+  9           Thrasher +1             9           3
+  10          Claws and Teeth +2      10          4
+  11          Claws +2                11          4
+  12          Teeth +2                12          5
+  13+         Thrasher +2             13+         5
+  ----------- -------------------- -- ----------- --------
+
+Roll 2d6+DMs for the animal’s Instinct and Pack. Intelligence for most animals is 0 or 1.
+
+All animals have at least Survival 0, Athletics 0 and Recon 0, and most will have 1d6 ranks split among these skills, Melee (natural weapons), and any skills listed in their behaviour.
+
+Damage from attacks depends on the creature’s Strength score.
+
+  ---------- --------
+  Strength   Damage
+  01-10      1d6
+  11-20      2d6
+  21-30      3d6
+  31-40      4d6
+  41-50      5d6
+  51-60      6d6
+  ---------- --------
+
+#### Number Encountered
+
+  ------- --------------------
+  Pack    Number Encountered
+  0       1
+  1-2     1d3
+  3-5     1d6
+  6-8     2d6
+  9-11    3d6
+  12-14   4d6
+  15+     5d6
+  ------- --------------------
+
+### Animal Reactions *UNFORMATTED
+
+When characters disturb an animal or otherwise draw attention to
+themselves while within its territory roll 2d6 and consult the following
+table. If the result on the table is neither attack nor flee, then the
+animal stands still until provoked again, in which case roll again.
+
+  --------------- -------------------------------------------------------------------------------------------------------------- ----------------------------------------
+  Type            Attack                                                                                                         Flee
+  Herbivore
+  Filter          10+ if possible                                                                                                5-
+  Intermittent    10+                                                                                                            4-
+  Grazer          8+                                                                                                             6-
+  Omnivore
+  Gatherer        9+                                                                                                             7-
+  Hunter          If the hunter is bigger than at least one character, then it attacks on a 6+. Otherwise, it attacks on a 10+   5-
+  Eater           5+                                                                                                             4-
+  Carnivore
+  Pouncer         If the pouncer has surprise, it attacks.                                                                       If the pouncer is surprised, it flees.
+  Chaser          If the chasers outnumber the characters, they attack.                                                          5-
+  Trapper         If the trapper has surprise, it attacks.                                                                       5-
+  Siren           If the siren has surprise, it attacks.                                                                         4-
+  Killer          6+                                                                                                             3-
+  Scavenger
+  Hijacker        7+                                                                                                             6-
+  Intimidator     8+                                                                                                             7-
+  Carrion-eater   11+                                                                                                            7-
+  Reducer         10+                                                                                                            7-
+  --------------- -------------------------------------------------------------------------------------------------------------- ----------------------------------------
+
+Diseases
+--------
+
+Diseases reduce a character’s Characteristics, usually Endurance. The character must make an Endurance check with the listed DM to resist the effects of the disease. If the character fails the Endurance check then he takes the listed damage and must make another Endurance check a few hours or days later, depending on the interval of the disease. Once an Endurance check has been passed, the character has fought off the disease.
+
+  ------------------- ---- -------- -----------
+  Disease             DM   Damage   Interval
+  Pneumonia           +0   1d6+4    1d6 weeks
+  Anthrax             -3   1d6+2    1d6 days
+  Regina Flu          +1   1d6–2    1d6 days
+  Biological Weapon   -6   1d6+8    1d6 hours
+  ------------------- ---- -------- -----------
+
+Poisons
+-------
+
+Poisons operate in the same way as diseases, but generally work much faster and often have a wider range of effects. Most poisons do not have an interval but apply their damage immediately.
+
+  ------------ ------ ----------------------------------------------
+  Poison       DM     Damage
+  Arsenic      -2     2d6
+  Tranq Gas    -1d6   Unconsciousness if Endurance check is failed
+  Neurotoxin   -4     1d6 Intelligence
+  ------------ ------ ----------------------------------------------
+
+Extremes of Temperature
+-----------------------
+
+Unusually hot or cold worlds can cause damage unless the characters are suitably protected. Temperatures are in Celsius.
+
+  ----------------------- -----------
+  Heat                    Effect
+  50˚ (Very hot desert)   1d6/hour
+  200˚ (\~Mercury)        1d6/round
+  500˚ (\~Venus)          2d6/round
+  Burning Torch           1d6/round
+  Welding Torch           2d6/round
+  Inferno                 3d6/round
+  ----------------------- -----------
+
+Weather
+-------
+
+High winds and torrential rain can inflict a negative Dice Modifier of -1 to -4 to all skill checks.
+
+Falling
+-------
+
+A character who falls on a 1-gravity world suffers 1d6 damage per two metres fallen. High- or low-gravity worlds will increase or decrease the damage. Look up the size code for the world and the gravity level associated with it and multiply the falling damage by the gravity number.
+
+Fatigue
+-------
+
+A fatigued character suffers a –2 DM to all checks until he rests. The amount of rest needed is 3 - the character’s Endurance DM hours. If a character suffers fatigue while already fatigued they fall unconscious.
+
+Unconsciousness
+---------------
+
+An unconscious character may make an Endurance check after every minute of unconsciousness - if successful, he regains consciousness. If he fails he must wait another minute and can then try again with a +1 DM on the check for every check previously failed.
+
+Injury and Recovery
+===================
+
+Injured characters are either wounded or seriously wounded. A character is considered seriously wounded if he has lost at least one point from all three of his physical characteristics. As soon as one of his physical characteristics is restored, no matter how, he is no longer seriously wounded.
+
+Seriously wounded characters who have somehow avoided unconsciousness cannot move except to hobble or crawl along at 1.5 metres per combat round. They also lose their minor action in combat.
+
+Wounded characters heal naturally and can also benefit from medical care. When characteristic points return from healing, players may choose which characteristic regains the points and may split healing between characteristics if they wish.
+
+Natural Healing
+---------------
+
+An injured character regains a number of characteristic points equal to her 1d6 + Endurance DM per day of full rest. If the character continues an active lifestyle she only heals a number of characteristic points equal to 1 + Endurance DM per day. Characters with a low Endurance DM (quite possibly from injury) may degrade (lose more characteristic points) over time if they are unlucky or cannot (or will not) rest.
+
+A seriously wounded character only regains characteristic points equal to her Endurance DM per day of rest, which means that the character may never heal naturally and will even get worse if her Endurance DM is currently negative.
+
+Medical Treatment 
+------------------
+
+First Aid
+: Applying first aid restores a number of characteristic points equal to twice the Effect of the Medic check. Points restored by first aid are divided as desired among all damaged physical characteristics. First aid must be applied within five minutes of the injuries being received to be fully effective. A character can still benefit from first aid up to an hour after their injury but they only receive a number of characteristic points equal to the Effect of the Medic check. Performing first aid on yourself is a Difficult (-2) task.
+
+Surgery
+: A character who is seriously wounded (after first aid has been applied) requires surgery. Surgery restores characteristic points just like first aid but if the check is failed the patient loses characteristic points equal to the Effect. Surgery requires a hospital or sickbay. Once one characteristic is back to its maximum level the patient can benefit from medical care. Surgery does not benefit characters who are not seriously wounded. Performing surgery on yourself is a Very Difficult (-4) task.
+
+Medical Care
+: Medical care restores 2 + the character’s Endurance DM + the doctor’s Medic skill in characteristic points per day, divided evenly among all damaged characteristics. Medical care requires a hospital or sickbay and for the patient to undergo full bed rest.
+
+Augmentation and Medical Care
+: Cybernetic or genetic augments can interfere with medical treatment. All medical care or surgery Medic rolls treating a character suffer a negative DM equal to the difference in Technology Level between the medical facility and the highest relevant implant.
+
+Healing and Mental Characteristics
+----------------------------------
+
+Other than Psionic Strength, characters may also suffer damage to their Intelligence or even their Education. Unless otherwise specified, each mental characteristic heals at the rate of one point per day.
