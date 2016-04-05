@@ -166,139 +166,43 @@ The power plant rating must be at least equal to the manoeuvre drive rating for 
 |  sY  |  - |  - | 15 | 11 |  9 |  7 |  6 |  6 |  6 |  6  |
 |  sZ  |  - |  - | 16 | 12 |  9 |  8 |  6 |  6 |  6 |  6  |
 
-Fuel ([top](small_craft_design.html)) {#fuel}
--------------------------------------
+Fuel
+----
 
 Total fuel tankage for a ship must be indicated in the design plans. There is no cost, but the capacity does influence how often the ship must refuel. All fuel requirements assume two weeks of operation.
 
-Gravitic drives do not require fuel.
+> Gravitic drives do not require fuel.
 
 Reaction drives require fuel. The required fuel is a percentage of craft displacement equal to 2.5% per thrust hour. So to thrust a craft at 4G for 2 hours requires 8G–hours of fuel, which corresponds to 20% of the craft dedicated to fuel. In ship combat, there are 10 turns in an hour so multiply the number of G–hours by 10 to give the duration number of G–turns a ship can thrust for. Each point of thrust spent reduced the fuel reserve by an equivalent number of G/turns.
 
-Fusion power plant fuel is tied directly to the power plant letter (and assumes a 2 week operation period):
+Fusion power plant fuel is tied directly to the power plant letter (and assumes a 2 week operation period). Chemical power plant fuel is also tied directly to the power plant letter (and assumes a 2 week operation period):
 
-  -----------------------------------------------------------------------
-  sA
-  sB
-  sC
-  sD
-  sE
-  sF
-  sG
-  sH
-  sJ
-  sK
-  sL
-  sM
-  sN
-  sP
-  sQ
-  sR
-  sS
-  sT
-  sU
-  sV
-  sW
-  sX
-  sY
-  sZ
-  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-  1
-  1
-  1
-  1
-  1.
-  5
-  1.
-  5
-  1.
-  5
-  1.
-  5
-  2
-  2
-  2
-  2
-  2.
-  5
-  2.
-  5
-  2.
-  5
-  2.
-  5
-  3
-  3
-  3
-  3
-  3.
-  5
-  3.
-  5
-  3.
-  5
-  3.
-  5
-  -----------------------------------------------------------------------
-
-Chemical power plant fuel is also tied directly to the power plant letter (and assumes a 2 week operation period):
-
-  -----------------------------------------------------------------------
-  sA
-  sB
-  sC
-  sD
-  sE
-  sF
-  sG
-  sH
-  sJ
-  sK
-  sL
-  sM
-  sN
-  sP
-  sQ
-  sR
-  sS
-  sT
-  sU
-  sV
-  sW
-  sX
-  sY
-  sZ
-  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-  5
-  10
-  15
-  20
-  25
-  30
-  35
-  40
-  45
-  50
-  55
-  60
-  65
-  70
-  75
-  80
-  85
-  90
-  95
-  10
-  0
-  10
-  5
-  11
-  0
-  11
-  5
-  12
-  0
-  -----------------------------------------------------------------------
+PPlant | Fusion Fuel | Chemical Fuel
+:-:|:---:|:---:
+sA | 1.0 |  5
+sB | 1.0 | 10
+sC | 1.0 | 15
+sD | 1.0 | 20
+sE | 1.5 | 25
+sF | 1.5 | 30
+sG | 1.5 | 35
+sH | 1.5 | 40
+sJ | 2.0 | 45
+sK | 2.0 | 50
+sL | 2.0 | 55
+sM | 2.0 | 60
+sN | 2.5 | 65
+sP | 2.5 | 70
+sQ | 2.5 | 75
+sR | 2.5 | 80
+sS | 3.0 | 85
+sT | 3.0 | 90
+sU | 3.0 | 100
+sV | 3.0 | 105
+sW | 3.5 | 110
+sX | 3.5 | 115
+sY | 3.5 | 120
+sZ | 3.5 | 125
 
 When not using active sensors, weapons or more than occasional use of very long communication, craft with chemical power plants halve their fuel consumption.
 
@@ -306,49 +210,41 @@ If you are reducing power plant fuel to a number of hours, endurance will be imp
 
 ### Small Craft & Fuel Requirements {#small-craft-and-fuel-requirements}
 
-  -------------------------------------------------------------------------
-  Operation Time
-  % of Base Fuel Requirements
-  ------------------------------------ ------------------------------------
-  Three hours (surface to orbit)       Six hours (dogfighter)
-  1%                                   2%
-  -------------------------------------------------------------------------
+Operation Time | % of Base Fuel Requirements
+:-------------|:---:
+Three hours (surface to orbit) | 1%
+Six hours (dogfighter) | 2%
+12 hours (surface to orbit round trip + manoeuvring) |	5%
+One day (Standard vehicle operations) | 10%
+Three days | 25%
+One week | 50%
 
-Small Craft Crews ([top](small_craft_design.html)) {#small-craft-crews}
---------------------------------------------------
+Small Craft Crews 
+-----------------
 
-  -------------------------------------------------------------------------
-  Tonnage
-  Minimum Crew
-  ------------------------------------ ------------------------------------
-  10–50                                60–100
-  1                                    2
-  -------------------------------------------------------------------------
+Tonnage | Minimum Crew
+:----:|:-:
+10–50 | 1
+60–100 | 2
 
 ### Drones
 
 A drone command unit takes up 1.5 tons per required crew equivalent and includes a basic electronics suite.
 
-  -----------------------------------------------------------------------
-  TL
-  Functionality
-  Cost
-  ----------------------- ----------------------- -----------------------
-  9                       11                      12
-  Remote Operation        Remote Operation        Autonomous Mode
-  (non–combat only)       MCr 2                   (non–combat only) or
-  MCr 0.5                                         Remote Operation
-                                                  MCr 5
-  -----------------------------------------------------------------------
+TL | Functionality | Cost
+--:|:--------------|---:|
+ 9 | Remote Operation (non-combat) | MCr0.5
+11 | Remote Operation | MCr 2.0
+12 | Autonomous Mode (non-combat)/Remote Op | MCr 5.0
+13 | Autonomous Mode with Characteristic 7, skill level 2 or Remote Operation | MCr 10.0
 
 A small craft drone operating in autonomous mode is effectively a robot with a range of specialist intellect and expert programmes (see Core Rule Book pages 92–94). The characteristics and skills of an autonomous mode drone depend on its tech level, noting that all skills requiring physical characteristics used Intelligence instead.
 
-  -----------------------------------------------------------------------
-  TL
-  Characteristics
-  Skills
-  ----------------------- ----------------------- -----------------------
-  12                      13                      14
+TL | Characteristics | Skills
+12 | Int+0 Edu+1 | Intellect 2, Expert Pilot 2 and 2 Expert/2 from Astrogation, Comms, Mechanic, Electronics and Sensors
+13 |
+14
+
   Intelligence 7 (+0)     Intelligence 8 (+0)     Intelligence 9 (+1)
   Education 9 (+1)        Education 10 (+1)       Education 11 (+1)
   Intellect/2, Expert     Intellect/3 Expert      Intellect/4 Expert
